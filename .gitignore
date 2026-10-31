@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+backend/.local/
+backend/src/generated/
+work/
+*.log
+
+*.tsbuildinfo

@@ -1,0 +1,990 @@
+// Business fields live in their own tables. Entity only provides stable IDs for attachments/comments.
+generator client {
+  provider            = "prisma-client"
+  output              = "../src/generated/prisma"
+  importFileExtension = "js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  OWNER
+  MANAGER
+  MEMBER
+  VIEWER
+}
+
+enum RecordKind {
+  TENDER
+  QUOTE
+  WORK_ORDER
+  INVOICE
+  PERMISSION
+  TASK
+  TOPIC
+  DOCUMENT
+  TEMPLATE
+  FEASIBILITY
+  MEETING
+  PROGRESS
+  DEVELOPER
+  SCHEME
+}
+
+model Organization {
+  id                String               @id @default(cuid())
+  name              String
+  isDemo            Boolean              @default(false)
+  profile           OrganizationProfile?
+  users             User[]
+  projects          Project[]
+  entities          Entity[]
+  files             File[]
+  audit             Audit[]
+  tenderSetup       TenderSetup?
+  tenders           Tender[]
+  quotations        Quotation[]
+  workOrders        WorkOrder[]
+  invoices          Invoice[]
+  permissions       Permission[]
+  tasks             Task[]
+  topics            Topic[]
+  documents         Document[]
+  templates         Template[]
+  feasibilities      Feasibility[]
+  meetings          Meeting[]
+  progressUpdates   ProgressUpdate[]
+  developers        Developer[]
+  permissionSchemes PermissionScheme[]
+  createdAt         DateTime             @default(now())
+  updatedAt         DateTime             @updatedAt
+}
+
+model OrganizationProfile {
+  organizationId String       @id
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  email          String       @default("")
+  phone          String       @default("")
+  address        String       @default("")
+  gstin          String       @default("")
+  website        String       @default("")
+  companySize    String       @default("")
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+}
+
+model User {
+  id                String             @id @default(cuid())
+  organizationId    String
+  organization      Organization       @relation(fields: [organizationId], references: [id])
+  email             String             @unique
+  name              String
+  passwordHash      String
+  role              Role               @default(MEMBER)
+  active            Boolean            @default(true)
+  sessions          Session[]
+  tenders           Tender[]
+  quotations        Quotation[]
+  workOrders        WorkOrder[]
+  invoices          Invoice[]
+  permissions       Permission[]
+  tasks             Task[]
+  topics            Topic[]
+  documents         Document[]
+  templates         Template[]
+  feasibilities      Feasibility[]
+  meetings          Meeting[]
+  progressUpdates   ProgressUpdate[]
+  developers        Developer[]
+  permissionSchemes PermissionScheme[]
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+
+  @@unique([id, organizationId])
+  @@index([organizationId])
+}
+
+model Session {
+  id        String   @id
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+
+  @@index([expiresAt])
+  @@index([userId])
+}
+
+model Project {
+  id                String               @id @default(cuid())
+  organizationId    String
+  organization      Organization         @relation(fields: [organizationId], references: [id])
+  name              String
+  code              String
+  location          String
+  address           String               @default("")
+  city              String               @default("Mumbai")
+  state             String               @default("Maharashtra")
+  society           String               @default("")
+  tower             String               @default("")
+  status            String               @default("Active")
+  stage             String               @default("Planning")
+  progress          Int                  @default(0)
+  startDate         DateTime?
+  targetDate        DateTime?
+  description       String               @default("")
+  coordinators      ProjectCoordinator[]
+  archived          Boolean              @default(false)
+  version           Int                  @default(1)
+  tenders           Tender[]
+  quotations        Quotation[]
+  workOrders        WorkOrder[]
+  invoices          Invoice[]
+  permissions       Permission[]
+  tasks             Task[]
+  topics            Topic[]
+  documents         Document[]
+  templates         Template[]
+  feasibilities      Feasibility[]
+  meetings          Meeting[]
+  progressUpdates   ProgressUpdate[]
+  developers        Developer[]
+  permissionSchemes PermissionScheme[]
+  createdAt         DateTime             @default(now())
+  updatedAt         DateTime             @updatedAt
+
+  @@unique([organizationId, code])
+  @@unique([id, organizationId])
+  @@index([organizationId, archived])
+}
+
+model ProjectCoordinator {
+  id        String   @id @default(cuid())
+  projectId String
+  project   Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  position  Int
+  name      String
+  mobile    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([projectId, position])
+}
+
+/// Identity registry only: no business values or JSON. Composite keys enforce tenant and entity type.
+model Entity {
+  id               String            @id @default(cuid())
+  organizationId   String
+  organization     Organization      @relation(fields: [organizationId], references: [id])
+  kind             RecordKind
+  tender           Tender?
+  quotation        Quotation?
+  workOrder        WorkOrder?
+  invoice          Invoice?
+  permission       Permission?
+  task             Task?
+  topic            Topic?
+  document         Document?
+  template         Template?
+  feasibility      Feasibility?
+  meeting          Meeting?
+  progressUpdate   ProgressUpdate?
+  developer        Developer?
+  permissionScheme PermissionScheme?
+  files            File[]
+  comments         Comment[]
+
+  @@unique([id, organizationId, kind])
+  @@unique([id, organizationId])
+  @@index([organizationId, kind])
+}
+
+/// tenders: stable identifiers, timestamps and versions are preserved from the original records.
+model Tender {
+  id             String              @id
+  organizationId String
+  organization   Organization        @relation(fields: [organizationId], references: [id])
+  kind           RecordKind          @default(TENDER)
+  entity         Entity              @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?            @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?               @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String              @default("Medium")
+  dueDate        DateTime?
+  content        String              @default("")
+  amount         Decimal             @default(0) @db.Decimal(18, 2)
+  total          Decimal             @default(0) @db.Decimal(18, 2)
+  paid           Decimal             @default(0) @db.Decimal(18, 2)
+  archived       Boolean             @default(false)
+  version        Int                 @default(1)
+  regulation     String              @default("33(9)")
+  units          String              @default("")
+  terms          String              @default("")
+  unitTypes      TenderUnitType[]
+  otherTerms     TenderTerm[]
+  requirements   TenderRequirement[]
+  quotations     Quotation[]
+  invitations    Invitation[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// quotes: stable identifiers, timestamps and versions are preserved from the original records.
+model Quotation {
+  id               String       @id
+  organizationId   String
+  organization     Organization @relation(fields: [organizationId], references: [id])
+  kind             RecordKind   @default(QUOTE)
+  entity           Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId        String?
+  project          Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId       String?
+  assignee         User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title            String
+  reference        String?
+  status           String
+  priority         String       @default("Medium")
+  dueDate          DateTime?
+  content          String       @default("")
+  amount           Decimal      @default(0) @db.Decimal(18, 2)
+  total            Decimal      @default(0) @db.Decimal(18, 2)
+  paid             Decimal      @default(0) @db.Decimal(18, 2)
+  archived         Boolean      @default(false)
+  version          Int          @default(1)
+  developerName    String       @default("")
+  quotedAmount     Decimal      @default(0) @db.Decimal(65, 30)
+  additionalArea   Decimal      @default(0) @db.Decimal(65, 30)
+  rent             Decimal      @default(0) @db.Decimal(65, 30)
+  corpus           Decimal      @default(0) @db.Decimal(65, 30)
+  completionMonths Int          @default(36)
+
+  tenderId String
+  tender   Tender @relation(fields: [tenderId, organizationId], references: [id, organizationId], onDelete: Restrict)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+  @@index([tenderId])
+}
+
+/// work-orders: stable identifiers, timestamps and versions are preserved from the original records.
+model WorkOrder {
+  id             String          @id
+  organizationId String
+  organization   Organization    @relation(fields: [organizationId], references: [id])
+  kind           RecordKind      @default(WORK_ORDER)
+  entity         Entity          @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?        @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?           @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String   
+  priority       String          @default("Medium")
+  dueDate        DateTime?
+  content        String          @default("")
+  amount         Decimal         @default(0) @db.Decimal(18, 2)
+  total          Decimal         @default(0) @db.Decimal(18, 2)
+  paid           Decimal         @default(0) @db.Decimal(18, 2)
+  archived       Boolean         @default(false)
+  version        Int             @default(1)
+  developerName  String          @default("")
+  tds            Decimal         @default(0) @db.Decimal(65, 30)
+  retention      Decimal         @default(0) @db.Decimal(65, 30)
+  terms          String          @default("")
+  items          WorkOrderItem[]
+
+  invoices Invoice[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// invoices: stable identifiers, timestamps and versions are preserved from the original records.
+model Invoice {
+  id             String        @id
+  organizationId String
+  organization   Organization  @relation(fields: [organizationId], references: [id])
+  kind           RecordKind    @default(INVOICE)
+  entity         Entity        @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?      @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?         @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String        @default("Medium")
+  dueDate        DateTime?
+  content        String        @default("")
+  amount         Decimal       @default(0) @db.Decimal(18, 2)
+  total          Decimal       @default(0) @db.Decimal(18, 2)
+  paid           Decimal       @default(0) @db.Decimal(18, 2)
+  archived       Boolean       @default(false)
+  version        Int           @default(1)
+  developerName  String        @default("")
+  tds            Decimal       @default(0) @db.Decimal(65, 30)
+  retention      Decimal       @default(0) @db.Decimal(65, 30)
+  terms          String        @default("")
+  items          InvoiceItem[]
+
+  workOrderId String?
+  workOrder   WorkOrder? @relation(fields: [workOrderId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  payments    Payment[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+  @@index([workOrderId])
+}
+
+/// permissions: stable identifiers, timestamps and versions are preserved from the original records.
+model Permission {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(PERMISSION)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  type           String
+  scheme         String       @default("33(9)")
+  authority      String       @default("")
+  expiry         DateTime?
+  flagged        Boolean      @default(false)
+  documents      String       @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// tasks: stable identifiers, timestamps and versions are preserved from the original records.
+model Task {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(TASK)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  topic          String       @default("General")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// topics: stable identifiers, timestamps and versions are preserved from the original records.
+model Topic {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(TOPIC)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+
+  members TopicMember[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// documents: stable identifiers, timestamps and versions are preserved from the original records.
+model Document {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(DOCUMENT)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  format         String       @default("plain")
+  category       String       @default("General")
+  revision       String       @default("1")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+  @@index([organizationId, category, archived])
+}
+
+/// templates: stable identifiers, timestamps and versions are preserved from the original records.
+model Template {
+  id             String                @id
+  organizationId String
+  organization   Organization          @relation(fields: [organizationId], references: [id])
+  kind           RecordKind            @default(TEMPLATE)
+  entity         Entity                @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?              @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?                 @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String                @default("Medium")
+  dueDate        DateTime?
+  content        String                @default("")
+  amount         Decimal               @default(0) @db.Decimal(18, 2)
+  total          Decimal               @default(0) @db.Decimal(18, 2)
+  paid           Decimal               @default(0) @db.Decimal(18, 2)
+  archived       Boolean               @default(false)
+  version        Int                   @default(1)
+  format         String                @default("plain")
+  category       String
+  header         String                @default("")
+  footer         String                @default("")
+  requirements   TemplateRequirement[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+  @@index([organizationId, category, archived])
+}
+
+/// feasibility: stable identifiers, timestamps and versions are preserved from the original records.
+model Feasibility {
+  id               String       @id
+  organizationId   String
+  organization     Organization @relation(fields: [organizationId], references: [id])
+  kind             RecordKind   @default(FEASIBILITY)
+  entity           Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId        String?
+  project          Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId       String?
+  assignee         User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title            String
+  reference        String?
+  status           String
+  priority         String       @default("Medium")
+  dueDate          DateTime?
+  content          String       @default("")
+  amount           Decimal      @default(0) @db.Decimal(18, 2)
+  total            Decimal      @default(0) @db.Decimal(18, 2)
+  paid             Decimal      @default(0) @db.Decimal(18, 2)
+  archived         Boolean      @default(false)
+  version          Int          @default(1)
+  plotArea         Decimal      @default(0) @db.Decimal(65, 30)
+  fsi              Decimal      @default(1) @db.Decimal(65, 30)
+  saleRate         Decimal      @default(0) @db.Decimal(65, 30)
+  constructionRate Decimal      @default(0) @db.Decimal(65, 30)
+  otherCost        Decimal      @default(0) @db.Decimal(65, 30)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// meetings: stable identifiers, timestamps and versions are preserved from the original records.
+model Meeting {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(MEETING)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  location       String       @default("")
+  attendees      String       @default("")
+  agenda         String       @default("")
+  minutes        String       @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// progress: stable identifiers, timestamps and versions are preserved from the original records.
+model ProgressUpdate {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(PROGRESS)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  percent        Decimal      @default(0) @db.Decimal(65, 30)
+  videoUrl       String       @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// developers: stable identifiers, timestamps and versions are preserved from the original records.
+model Developer {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(DEVELOPER)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  email          String       @default("")
+  phone          String       @default("")
+  contact        String       @default("")
+  address        String       @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+/// schemes: stable identifiers, timestamps and versions are preserved from the original records.
+model PermissionScheme {
+  id             String       @id
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  kind           RecordKind   @default(SCHEME)
+  entity         Entity       @relation(fields: [id, organizationId, kind], references: [id, organizationId, kind], onDelete: Cascade)
+  projectId      String?
+  project        Project?     @relation(fields: [projectId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  assigneeId     String?
+  assignee       User?        @relation(fields: [assigneeId, organizationId], references: [id, organizationId], onDelete: Restrict)
+  title          String
+  reference      String?
+  status         String
+  priority       String       @default("Medium")
+  dueDate        DateTime?
+  content        String       @default("")
+  amount         Decimal      @default(0) @db.Decimal(18, 2)
+  total          Decimal      @default(0) @db.Decimal(18, 2)
+  paid           Decimal      @default(0) @db.Decimal(18, 2)
+  archived       Boolean      @default(false)
+  version        Int          @default(1)
+  type           String
+  scheme         String
+  documents      String       @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([id, organizationId])
+  @@unique([organizationId, reference])
+  @@unique([id, organizationId, kind])
+  @@index([organizationId, archived, createdAt])
+  @@index([projectId])
+  @@index([assigneeId])
+}
+
+model TenderUnitType {
+  id        String   @id @default(cuid())
+  tenderId  String
+  tender    Tender   @relation(fields: [tenderId], references: [id], onDelete: Cascade)
+  position  Int
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([tenderId, position])
+}
+
+model TenderTerm {
+  id        String   @id @default(cuid())
+  tenderId  String
+  tender    Tender   @relation(fields: [tenderId], references: [id], onDelete: Cascade)
+  position  Int
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([tenderId, position])
+}
+
+model TenderRequirement {
+  id            String   @id @default(cuid())
+  tenderId      String
+  tender        Tender   @relation(fields: [tenderId], references: [id], onDelete: Cascade)
+  position      Int
+  section       String
+  sectionSerial String   @default("")
+  serial        String   @default("")
+  description   String
+  offer         String
+  remarks       String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([tenderId, position])
+}
+
+model WorkOrderItem {
+  id          String    @id @default(cuid())
+  workOrderId String
+  workOrder   WorkOrder @relation(fields: [workOrderId], references: [id], onDelete: Cascade)
+  position    Int
+  description String
+  quantity    Decimal   @db.Decimal(65, 30)
+  rate        Decimal   @db.Decimal(65, 30)
+  tax         Decimal   @db.Decimal(65, 30)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@unique([workOrderId, position])
+}
+
+model InvoiceItem {
+  id          String   @id @default(cuid())
+  invoiceId   String
+  invoice     Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  position    Int
+  description String
+  quantity    Decimal  @db.Decimal(65, 30)
+  rate        Decimal  @db.Decimal(65, 30)
+  tax         Decimal  @db.Decimal(65, 30)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([invoiceId, position])
+}
+
+model TopicMember {
+  id        String   @id @default(cuid())
+  topicId   String
+  topic     Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  position  Int
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([topicId, position])
+}
+
+model TemplateRequirement {
+  id          String   @id @default(cuid())
+  templateId  String
+  template    Template @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  position    Int
+  section     String
+  description String
+  offer       String
+  remarks     String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([templateId, position])
+}
+
+model Payment {
+  id        String   @id @default(cuid())
+  invoiceId String
+  invoice   Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Restrict)
+  amount    Decimal  @db.Decimal(18, 2)
+  date      DateTime
+  reference String
+  method    String
+  createdAt DateTime @default(now())
+
+  @@unique([invoiceId, reference])
+}
+
+model File {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  entityId       String
+  entity         Entity       @relation(fields: [entityId, organizationId], references: [id, organizationId], onDelete: Cascade)
+  name           String
+  mime           String
+  size           Int
+  bytes          Bytes
+  createdAt      DateTime     @default(now())
+
+  @@index([entityId])
+  @@index([organizationId])
+}
+
+model Comment {
+  id        String   @id @default(cuid())
+  entityId  String
+  entity    Entity   @relation(fields: [entityId], references: [id], onDelete: Cascade)
+  author    String
+  content   String
+  createdAt DateTime @default(now())
+
+  @@index([entityId, createdAt])
+}
+
+model Invitation {
+  id            String    @id @default(cuid())
+  tenderId      String
+  tender        Tender    @relation(fields: [tenderId], references: [id], onDelete: Restrict)
+  developerName String
+  tokenHash     String    @unique
+  expiresAt     DateTime
+  submittedAt   DateTime?
+  createdAt     DateTime  @default(now())
+
+  @@index([tenderId])
+}
+
+model Audit {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  actor          String
+  action         String
+  entity         String
+  entityId       String
+  title          String
+  createdAt      DateTime     @default(now())
+
+  @@index([organizationId, createdAt])
+}
+
+model TenderSetup {
+  id             String               @id @default(cuid())
+  organizationId String               @unique
+  organization   Organization         @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  regulation     String               @default("33(9)")
+  unitTypes      TenderSetupUnit[]
+  otherTerms     TenderSetupTerm[]
+  sections       TenderSetupSection[]
+  version        Int                  @default(1)
+  createdAt      DateTime             @default(now())
+  updatedAt      DateTime             @updatedAt
+}
+
+model TenderSetupUnit {
+  id        String
+  setupId   String
+  setup     TenderSetup @relation(fields: [setupId], references: [id], onDelete: Cascade)
+  position  Int
+  name      String
+  sortOrder Int
+  type      String
+  status    String
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  @@id([setupId, id])
+  @@unique([setupId, position])
+}
+
+model TenderSetupTerm {
+  id        String
+  setupId   String
+  setup     TenderSetup @relation(fields: [setupId], references: [id], onDelete: Cascade)
+  position  Int
+  name      String
+  sortOrder Int
+  type      String
+  status    String
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  @@id([setupId, id])
+  @@unique([setupId, position])
+}
+
+model TenderSetupSection {
+  id        String
+  setupId   String
+  setup     TenderSetup      @relation(fields: [setupId], references: [id], onDelete: Cascade)
+  position  Int
+  serial    String
+  title     String
+  rows      TenderSetupRow[]
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  @@id([setupId, id])
+  @@unique([setupId, position])
+}
+
+model TenderSetupRow {
+  id          String
+  setupId     String
+  sectionId   String
+  section     TenderSetupSection @relation(fields: [setupId, sectionId], references: [setupId, id], onDelete: Cascade)
+  position    Int
+  serial      String
+  description String
+  offer       String
+  remarks     String
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  @@id([setupId, id])
+  @@unique([setupId, sectionId, position])
+}

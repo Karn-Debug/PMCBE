@@ -1,0 +1,10 @@
+import { Router } from "express";
+import * as c from "../controllers/auth.controller.js";
+import { authenticate } from "../middleware/auth.middleware.js";
+import { authLimit } from "../middleware/rate-limit.middleware.js";
+const router = Router();
+router.post("/login", authLimit, c.login);
+router.post("/logout", c.logout);
+router.get("/me", authenticate, c.me);
+router.post("/password", authLimit, authenticate, c.password);
+export default router;

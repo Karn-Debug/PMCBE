@@ -1,0 +1,867 @@
+{
+  "capturedAt": "2026-10-28T10:48:43.736Z",
+  "source": "https://skrite.com/stallion-build-test/alpha-force/backend/",
+  "description": [
+    {
+      "name": "regulation_scheme_id",
+      "value": "2"
+    },
+    {
+      "name": "header_srno[0]",
+      "value": "1"
+    },
+    {
+      "name": "header_name[0]",
+      "value": "DISPLACEMENT OF MEMBERS"
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.1"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to the Members per\nsquare foot of Existing Carpet Area\n(including balcony but excluding\ncommon carpet areas) for a period\nfrom the date of first C.C which shall\nbe increased by 10% every 12 months\ntill handing over the possession of the\nMembers’ New Premises to the\nMembers.\nRent for the 1st to 48th month to be paid\nin advance simultaneously with the\nexecution of Development Agreement\nby way of one pay order / post-dated\ncheques (PDC’s).\nRent for any period after Grace Period\nto be paid to the Members on an annual\nbasis by way of one post-dated cheque."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": ""
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.2."
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for the 1st to 12th month which shall\nstart post the receipt of First\nCommencement Certificate (F.C.C),\nshall be paid to all the Members\nsimultaneously against the Execution of\nDevelopment Agreement."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.110/-per square\nfoot of Existing\nCarpet Area\n(Including balcony,\nexcluding Common\nareas) of the\nMembers per month"
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.3"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for the 13th to 24th month with 10%\nincrease"
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.4"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for 25th to 36th month with 10%\nincrease"
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.5"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for 37th to 48th month with 10%\nincrease"
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.6"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to Members for the\nperiod beyond the Grace Period until\nhandover of possession of the Members’\nnew Premises to the Members."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society\nexpects a minimum\nof Rs.160/-per\nsquare foot of\nExisting Area of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.7"
+    },
+    {
+      "name": "description[0][]",
+      "value": "In addition to the Rent mentioned above,\nthe amount that would be payable to\nMembers of Wing – D & Wing – E, from\nthe date of them vacating their respective\nExisting Premises (i.e. July 2024) till the\ndate of execution of the Development\nAgreement."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.8"
+    },
+    {
+      "name": "description[0][]",
+      "value": "In addition to the Rent mentioned above,\nthe amount that would be payable to the\nMembers of ‘C’ Wing from the date of\nthem having vacated (as per Society\noffice record) their respective Existing\nPremises till the date of execution of the\nDevelopment Agreement. It is clarified\nthat, certain members of ‘C’ Wing had\nalready commenced vacating their\nrespective Existing Premises since\nDecember 2024 and the details of the\ndate on which the Members of Wing ‘C’ have vacated their premises shall be\nmade available as per the society records."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.9"
+    },
+    {
+      "name": "description[0][]",
+      "value": "In addition to the Rent mentioned above,\nthe amount that would be payable to\nMembers of Wing – A & B from the date\nof them vacating (as per Society office\nrecord) their respective Existing\nPremises till the execution of\nDevelopment Agreement. The details of\nthe date on which the Members of Wing\n‘A’ & ‘B’ have vacated their respective\nExisting Premises shall be made\navailable as per the society records."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": ""
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.10"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to Members of Wing- A,\nB, C, D & E, for the period from the date\nof execution of the Development\nAgreement until the receipt of Intimation\nof Disapproval (IOD)."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.11"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to Members of Wing- A,\nB, C, D & E, for the period from the date\nof receipt of Intimation of Disapproval\n(IOD) until the receipt of First\nCommencement Certificate (F.C.C)."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "B"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Relocation / shifting charges to be payable\nto each Member per flat (i.e. for shifting\nfrom Existing Premises to temporary\naccommodation and from temporary\naccommodation to New Premises) at the\ntime of each Member vacating their\nrespective Existing Premises except for\nC,D & E Wings simultaneously with the\nexecution of Development Agreement."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- Per Flat"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of [Rs.\n1,00,000/-] to Be\npaid per flat at the\ntime of vacating and\nRs.1,00,000/-\nAt the time of reshifting i.e total\nRs.2,00,000/-\n(Rupees two Lakhs\nonly"
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "C"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Brokerage charges to be payable to each\nMember at the time of each Member\nvacating their respective Existing\nPremises."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- Member"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\nthe Developer to\npay minimum Two\nmonths’ Rent as\nBrokerage charges."
+    },
+    {
+      "name": "header_srno[1]",
+      "value": "2"
+    },
+    {
+      "name": "header_name[1]",
+      "value": "BENEFITS TO THE MEMBERS Note: due weightage shall be given to bids that exceed the expectation of the Society in respect of the benefits to be provided to Members."
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "A"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Percentage of additional carpet area (as\ndefined under MOFA) to be provided to\neach Member over and above their\nExisting Carpet Area as defined in Part\nA, Point 11.\nNote: The tenderer’s bids should clearly\ndescribe the regulation of DCPR under\nwhich the additional carpet area offer is\nmade."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": "The Society expects a\nminimum of 65% of\nadditional carpet\narea (as defined\nunder MOFA) to be\nprovided to each\nMember over and\nabove their Existing\nCarpet Area as\ndefined in Part A,\nPoint 11."
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "B"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Hardship Compensation (Corpus\nFund): to be paid to each Member on\nExisting Carpet Area (including\nbalcony but excluding common carpet\nareas)."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": "Rs. /- per square\nfoot"
+    },
+    {
+      "name": "remark[1][]",
+      "value": "The Society is\nexpecting upwards\nof Rs.2500/-per\nsquare foot of the\nExisting Area of\neach Member."
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "C"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Terms of Payment for Corpus Fund"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.1"
+    },
+    {
+      "name": "description[1][]",
+      "value": "On execution of Development\nAgreement"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.2"
+    },
+    {
+      "name": "description[1][]",
+      "value": "On vacating of the respective Flat by\neach Member"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.3"
+    },
+    {
+      "name": "description[1][]",
+      "value": "On Possession of the flats"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.4"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Total Corpus Fund"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": "100%"
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "E"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Stamp Duty & Registration Charges on\nall documents pertaining to the redevelopment, including but not limited\nto the Development Agreement, PAAA\n(in respect of existing and additional\ncarpet area (as defined under MOFA) as\nwell as car parking spaces) to be borne\nand paid by the Developer."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "F"
+    },
+    {
+      "name": "description[1][]",
+      "value": "GST on the grant of development rights,\nexisting and additional area (i.e. the area\nof the Members received over and above\nthe Existing Premises)of the Members,\nconstruction of the Society Office\npremises, any sums payable to the\nMembers under the Development\nAgreement and PAAA including all\ncosts relating to the provision of the\nMembers New Area (including\nDisplacement Compensation, Rent,\nbrokerage, relocation / shifting charges,\nHardship Compensation /Corpus\nFund),any purchase of FSI from the\nGovernment / MCGM and any\ndocuments in respect thereof to be borne\nand paid by the Developer."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "G"
+    },
+    {
+      "name": "description[1][]",
+      "value": "All costs and expenses for (i) execution\nof lease deed between the Society and\nthe Governor of Maharashtra\n(Collector) (ii) conversion of the said\nLand from Class II to Class I (iii)\nupdating the Property Register Card for\nmutating/effectuating the rights of the\nSociety (iv) all outstanding dues, due\nand payable in the past and (v) premium,\npenalty, nazarana (by whatever name\ncalled) in relation of the aforesaid shall be borne and paid by the Tenderer/\nDeveloper."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "H"
+    },
+    {
+      "name": "description[1][]",
+      "value": "The tenderer is required to acknowledge\nand confirm that the conversion of the\nsaid Land from Occupancy Class II to\nOccupancy Class I shall be a condition\nprecedent to the execution of the\nDevelopment Agreement."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "I"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Any pending collector clearances\npertaining to individual members, if any\nshall be undertaken by the developer and\nall the associated costs shall be fully borne\nby the Developer."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    }
+  ],
+  "units": [
+    [
+      "1",
+      "1 BHK",
+      "1",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "2",
+      "2 BHK",
+      "2",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "3",
+      "3 BHK",
+      "3",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "4",
+      "SHOP",
+      "4",
+      "Global",
+      "Active",
+      ""
+    ]
+  ],
+  "terms": [
+    [
+      "1",
+      "Corpus-Payment Terms",
+      "1",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "2",
+      "Car Parking",
+      "2",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "3",
+      "Discount on Additional purchase toExisting",
+      "3",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "4",
+      "Amenities for Rehab & Sale",
+      "4",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "5",
+      "Earnest Money Deposit (EMD)- RS. 25,00,000/-(Rupees Twenty-Five Lakhs Only)",
+      "5",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "6",
+      "Total Volume of Completed Projects till Date(Sq.Ft.)",
+      "6",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "7",
+      "Single Largest Completed/Ongoing Project executed in Mumbai",
+      "7",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "8",
+      "Turnover / Net worth of Co.",
+      "8",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "9",
+      "Undertaking for Time limit & Expenses for 79A/EGM to be borne by the Developer",
+      "9",
+      "Global",
+      "Active",
+      ""
+    ],
+    [
+      "10",
+      "Remark",
+      "10",
+      "Global",
+      "Active",
+      ""
+    ]
+  ],
+  "dashboard": "Tenders\nTotal\n2\nFloated\n3\nReceived\n1\nPending\n2\nFeasibility\nTotal Project\n2\nPending\n1\nUploaded\n1\nWork Orders\nTotal Project\n2\nWo Generated\n1\nPending\n1\nIssued\n1\nFees/Billing\nTotal Billing\n0\nPayment Received\n1\nBalanace\n0\nOverdue\n0\n\nTeamspace\n\nCollaboration & progress\n\nTotal Topics\n\n1\n\nOpen Tasks\n\n0\n\nIn Process\n\n1\n\nCompleted\n\n0\n\nPermissions\n\nApprovals & clearances\n\nIOD\n\nPending\n2\nIssued\n0\nExpired\n0\n\nCC\n\nPending\n1\nIssued\n0\nExpired\n0\n\nOC\n\nPending\n2\nIssued\n0\nExpired\n0",
+  "macros": [
+    {
+      "label": "\n                                                            Select User:-        ||SELECT_USER||                                                        ",
+      "value": "||SELECT_USER||"
+    },
+    {
+      "label": "\n                                                            Plot Society Name:-        ||PLOT_SOCIETY_NAME||                                                        ",
+      "value": "||PLOT_SOCIETY_NAME||"
+    },
+    {
+      "label": "\n                                                            Society Location:-        ||SOCIETY_LOCATION||                                                        ",
+      "value": "||SOCIETY_LOCATION||"
+    },
+    {
+      "label": "\n                                                            Cts No:-        ||CTS_NO||                                                        ",
+      "value": "||CTS_NO||"
+    },
+    {
+      "label": "\n                                                            Landlord Owner Name:-        ||LANDLORD_OWNER_NAME||                                                        ",
+      "value": "||LANDLORD_OWNER_NAME||"
+    },
+    {
+      "label": "\n                                                            Existing Plot Area In Sq Ft:-        ||EXISTING_PLOT_AREA_IN_SQ_FT||                                                        ",
+      "value": "||EXISTING_PLOT_AREA_IN_SQ_FT||"
+    },
+    {
+      "label": "\n                                                            Existing Plot Area In Meters:-        ||EXISTING_PLOT_AREA_IN_METERS||                                                        ",
+      "value": "||EXISTING_PLOT_AREA_IN_METERS||"
+    },
+    {
+      "label": "\n                                                            Additional Area In Percentage:-        ||ADDITIONAL_AREA_IN_PERCENTAGE||                                                        ",
+      "value": "||ADDITIONAL_AREA_IN_PERCENTAGE||"
+    },
+    {
+      "label": "\n                                                            Total Area In Sq Ft:-        ||TOTAL_AREA_IN_SQ_FT||                                                        ",
+      "value": "||TOTAL_AREA_IN_SQ_FT||"
+    },
+    {
+      "label": "\n                                                            Company Name:-        ||COMPANY_NAME||                                                        ",
+      "value": "||COMPANY_NAME||"
+    },
+    {
+      "label": "\n                                                            Partners:-        ||PARTNERS||                                                        ",
+      "value": "||PARTNERS||"
+    },
+    {
+      "label": "\n                                                            Proposed Area:-        ||PROPOSED_AREA||                                                        ",
+      "value": "||PROPOSED_AREA||"
+    },
+    {
+      "label": "\n                                                            Rent Per Sq Ft:-        ||RENT_PER_SQ_FT||                                                        ",
+      "value": "||RENT_PER_SQ_FT||"
+    },
+    {
+      "label": "\n                                                            Rent In Lump Sum:-        ||RENT_IN_LUMP_SUM||                                                        ",
+      "value": "||RENT_IN_LUMP_SUM||"
+    },
+    {
+      "label": "\n                                                            Corpus For Society:-        ||CORPUS_FOR_SOCIETY||                                                        ",
+      "value": "||CORPUS_FOR_SOCIETY||"
+    },
+    {
+      "label": "\n                                                            Tenant Occupants:-        ||TENANT_OCCUPANTS||                                                        ",
+      "value": "||TENANT_OCCUPANTS||"
+    },
+    {
+      "label": "\n                                                            Planned Architect:-        ||PLANNED_ARCHITECT||                                                        ",
+      "value": "||PLANNED_ARCHITECT||"
+    },
+    {
+      "label": "\n                                                            Signature Of Admin:-        ||SIGNATURE_OF_ADMIN||                                                        ",
+      "value": "||SIGNATURE_OF_ADMIN||"
+    },
+    {
+      "label": "\n                                                            Completion In Years:-        ||COMPLETION_IN_YEARS||                                                        ",
+      "value": "||COMPLETION_IN_YEARS||"
+    },
+    {
+      "label": "\n                                                            Tenant:-        ||TENANT||                                                        ",
+      "value": "||TENANT||"
+    },
+    {
+      "label": "\n                                                            Shops:-        ||SHOPS||                                                        ",
+      "value": "||SHOPS||"
+    },
+    {
+      "label": "\n                                                            Approx Floors:-        ||APPROX_FLOORS||                                                        ",
+      "value": "||APPROX_FLOORS||"
+    },
+    {
+      "label": "\n                                                            Flat Config:-        ||FLAT_CONFIG||                                                        ",
+      "value": "||FLAT_CONFIG||"
+    },
+    {
+      "label": "\n                                                            No Of Parking:-        ||NO_OF_PARKING||                                                        ",
+      "value": "||NO_OF_PARKING||"
+    },
+    {
+      "label": "\n                                                            Min No Of Elevator:-        ||MIN_NO_OF_ELEVATOR||                                                        ",
+      "value": "||MIN_NO_OF_ELEVATOR||"
+    }
+  ],
+  "templates": [
+    {
+      "key": "workorder",
+      "route": "pmc-workorder-template",
+      "html": " <div style=\"font-family:arial; font-size:12px\">\n<div id=\"top\" style=\"float:left; height:auto; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; width:100%\">\n<table border=\"0\" cellspacing=\"0\" style=\"font-family:arial; width:100%\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>To,</td>\n\t\t\t<td style=\"text-align:right\"><strong>W.O No.: ||WO_NO||</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>||DEVELOPER_NAME||</td>\n\t\t\t<td style=\"text-align:right\"><strong>Date: ||CURRENT_DATE||</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>||DEVELOPER_ADDRESS||</td>\n\t\t\t<td style=\"text-align:right\"> </td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n \n\n<div id=\"sub\" style=\"float:left; height:auto; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; padding:12px 0; text-align:center; width:100%\"><strong>Sub. :</strong> Work Order is ||REISSUED|| for ||DESCRIPTION|| at “||PROJECT_NAME||”.</div>\n\n<div id=\"text\">Dear Sir,<br />\n<br />\nWe are pleased to raise this Work Order for ||DESCRIPTION|| for “||PROJECT_NAME||” at ||PROJECT_ADDRESS||. The rates are mentioned below;</div>\n \n\n<div id=\"main-struc\">||BILLING_STRUCTURE||</div>\n\n<div id=\"details\"> \n<div><strong><u>Notes</u>:- </strong></div>\n\n<ul>\n\t<li><strong>Description - </strong>||DESCRIPTION||</li>\n\t<li><strong>Retention - </strong>||Retention||%</li>\n</ul>\n\n<div><strong><u>Project Details</u>:- </strong>\n\n<ul>\n\t<li><strong>Project Address -</strong>||PROJECT_ADDRESS||</li>\n\t<li><strong>Contact Person at Site - </strong>||Site_coordinator||</li>\n\t<li><strong>Company GST Number - </strong>||gst_number||</li>\n\t<li><strong>Company PAN Number - </strong>||pan_number||</li>\n</ul>\n\n<div><strong><u>Developer Details</u>:- </strong></div>\n\n<ul>\n\t<li><strong>Name/Contact No. - </strong>||Service_Provider_Contact||</li>\n\t<li><strong>Email Id - </strong>||Service_Provider_Email||</li>\n\t<li><strong>Bank Name - </strong>||Service_Provider_Bank_Name||</li>\n\t<li><strong>Bank A/C No. - </strong>||Service_Provider_Bank_A/C||</li>\n\t<li><strong>Bank IFSC - </strong>||Service_Provider_Bank_IFSC||</li>\n\t<li><strong>GST No. - </strong>||SERVICE_PROVIDER_GST||</li>\n\t<li><strong>PAN No. - </strong>||SERVICE_PROVIDER_PAN||</li>\n</ul>\n\n<div> </div>\n \n\n<p>||TERMS_COND||</p>\n\n<div style=\"float:left; padding:16px 16px 16px 0px; width:80%\">Thanking You.<br />\nFor ||PMC_COMPANY_NAME||<br />\n||SIGNETURE||<br />\n||WO_SIGN_DATE||<br />\n||DESIGNATION||</div>\n</div>\n</div>\n</div>\n",
+      "macros": [
+        {
+          "label": "\n                                                            Select User:-        ||SELECT_USER||                                                        ",
+          "value": "||SELECT_USER||"
+        },
+        {
+          "label": "\n                                                            Plot Society Name:-        ||PLOT_SOCIETY_NAME||                                                        ",
+          "value": "||PLOT_SOCIETY_NAME||"
+        },
+        {
+          "label": "\n                                                            Society Location:-        ||SOCIETY_LOCATION||                                                        ",
+          "value": "||SOCIETY_LOCATION||"
+        },
+        {
+          "label": "\n                                                            Cts No:-        ||CTS_NO||                                                        ",
+          "value": "||CTS_NO||"
+        },
+        {
+          "label": "\n                                                            Landlord Owner Name:-        ||LANDLORD_OWNER_NAME||                                                        ",
+          "value": "||LANDLORD_OWNER_NAME||"
+        },
+        {
+          "label": "\n                                                            Existing Plot Area In Sq Ft:-        ||EXISTING_PLOT_AREA_IN_SQ_FT||                                                        ",
+          "value": "||EXISTING_PLOT_AREA_IN_SQ_FT||"
+        },
+        {
+          "label": "\n                                                            Existing Plot Area In Meters:-        ||EXISTING_PLOT_AREA_IN_METERS||                                                        ",
+          "value": "||EXISTING_PLOT_AREA_IN_METERS||"
+        },
+        {
+          "label": "\n                                                            Additional Area In Percentage:-        ||ADDITIONAL_AREA_IN_PERCENTAGE||                                                        ",
+          "value": "||ADDITIONAL_AREA_IN_PERCENTAGE||"
+        },
+        {
+          "label": "\n                                                            Total Area In Sq Ft:-        ||TOTAL_AREA_IN_SQ_FT||                                                        ",
+          "value": "||TOTAL_AREA_IN_SQ_FT||"
+        },
+        {
+          "label": "\n                                                            Company Name:-        ||COMPANY_NAME||                                                        ",
+          "value": "||COMPANY_NAME||"
+        },
+        {
+          "label": "\n                                                            Partners:-        ||PARTNERS||                                                        ",
+          "value": "||PARTNERS||"
+        },
+        {
+          "label": "\n                                                            Proposed Area:-        ||PROPOSED_AREA||                                                        ",
+          "value": "||PROPOSED_AREA||"
+        },
+        {
+          "label": "\n                                                            Rent Per Sq Ft:-        ||RENT_PER_SQ_FT||                                                        ",
+          "value": "||RENT_PER_SQ_FT||"
+        },
+        {
+          "label": "\n                                                            Rent In Lump Sum:-        ||RENT_IN_LUMP_SUM||                                                        ",
+          "value": "||RENT_IN_LUMP_SUM||"
+        },
+        {
+          "label": "\n                                                            Corpus For Society:-        ||CORPUS_FOR_SOCIETY||                                                        ",
+          "value": "||CORPUS_FOR_SOCIETY||"
+        },
+        {
+          "label": "\n                                                            Tenant Occupants:-        ||TENANT_OCCUPANTS||                                                        ",
+          "value": "||TENANT_OCCUPANTS||"
+        },
+        {
+          "label": "\n                                                            Planned Architect:-        ||PLANNED_ARCHITECT||                                                        ",
+          "value": "||PLANNED_ARCHITECT||"
+        },
+        {
+          "label": "\n                                                            Signature Of Admin:-        ||SIGNATURE_OF_ADMIN||                                                        ",
+          "value": "||SIGNATURE_OF_ADMIN||"
+        },
+        {
+          "label": "\n                                                            Completion In Years:-        ||COMPLETION_IN_YEARS||                                                        ",
+          "value": "||COMPLETION_IN_YEARS||"
+        },
+        {
+          "label": "\n                                                            Tenant:-        ||TENANT||                                                        ",
+          "value": "||TENANT||"
+        },
+        {
+          "label": "\n                                                            Shops:-        ||SHOPS||                                                        ",
+          "value": "||SHOPS||"
+        },
+        {
+          "label": "\n                                                            Approx Floors:-        ||APPROX_FLOORS||                                                        ",
+          "value": "||APPROX_FLOORS||"
+        },
+        {
+          "label": "\n                                                            Flat Config:-        ||FLAT_CONFIG||                                                        ",
+          "value": "||FLAT_CONFIG||"
+        },
+        {
+          "label": "\n                                                            No Of Parking:-        ||NO_OF_PARKING||                                                        ",
+          "value": "||NO_OF_PARKING||"
+        },
+        {
+          "label": "\n                                                            Min No Of Elevator:-        ||MIN_NO_OF_ELEVATOR||                                                        ",
+          "value": "||MIN_NO_OF_ELEVATOR||"
+        }
+      ]
+    },
+    {
+      "key": "demand",
+      "route": "demand-invoice-template",
+      "html": " <p>aaaa ||PLOT_SOCIETY_NAME||</p>\n\n<p>bbb||SOCIETY_LOCATION||</p>\n",
+      "macros": [
+        {
+          "label": "\n                                                            Select User:-        ||SELECT_USER||                                                        ",
+          "value": "||SELECT_USER||"
+        },
+        {
+          "label": "\n                                                            Plot Society Name:-        ||PLOT_SOCIETY_NAME||                                                        ",
+          "value": "||PLOT_SOCIETY_NAME||"
+        },
+        {
+          "label": "\n                                                            Society Location:-        ||SOCIETY_LOCATION||                                                        ",
+          "value": "||SOCIETY_LOCATION||"
+        },
+        {
+          "label": "\n                                                            Cts No:-        ||CTS_NO||                                                        ",
+          "value": "||CTS_NO||"
+        },
+        {
+          "label": "\n                                                            Landlord Owner Name:-        ||LANDLORD_OWNER_NAME||                                                        ",
+          "value": "||LANDLORD_OWNER_NAME||"
+        },
+        {
+          "label": "\n                                                            Existing Plot Area In Sq Ft:-        ||EXISTING_PLOT_AREA_IN_SQ_FT||                                                        ",
+          "value": "||EXISTING_PLOT_AREA_IN_SQ_FT||"
+        },
+        {
+          "label": "\n                                                            Existing Plot Area In Meters:-        ||EXISTING_PLOT_AREA_IN_METERS||                                                        ",
+          "value": "||EXISTING_PLOT_AREA_IN_METERS||"
+        },
+        {
+          "label": "\n                                                            Additional Area In Percentage:-        ||ADDITIONAL_AREA_IN_PERCENTAGE||                                                        ",
+          "value": "||ADDITIONAL_AREA_IN_PERCENTAGE||"
+        },
+        {
+          "label": "\n                                                            Total Area In Sq Ft:-        ||TOTAL_AREA_IN_SQ_FT||                                                        ",
+          "value": "||TOTAL_AREA_IN_SQ_FT||"
+        },
+        {
+          "label": "\n                                                            Company Name:-        ||COMPANY_NAME||                                                        ",
+          "value": "||COMPANY_NAME||"
+        },
+        {
+          "label": "\n                                                            Partners:-        ||PARTNERS||                                                        ",
+          "value": "||PARTNERS||"
+        },
+        {
+          "label": "\n                                                            Proposed Area:-        ||PROPOSED_AREA||                                                        ",
+          "value": "||PROPOSED_AREA||"
+        },
+        {
+          "label": "\n                                                            Rent Per Sq Ft:-        ||RENT_PER_SQ_FT||                                                        ",
+          "value": "||RENT_PER_SQ_FT||"
+        },
+        {
+          "label": "\n                                                            Rent In Lump Sum:-        ||RENT_IN_LUMP_SUM||                                                        ",
+          "value": "||RENT_IN_LUMP_SUM||"
+        },
+        {
+          "label": "\n                                                            Corpus For Society:-        ||CORPUS_FOR_SOCIETY||                                                        ",
+          "value": "||CORPUS_FOR_SOCIETY||"
+        },
+        {
+          "label": "\n                                                            Tenant Occupants:-        ||TENANT_OCCUPANTS||                                                        ",
+          "value": "||TENANT_OCCUPANTS||"
+        },
+        {
+          "label": "\n                                                            Planned Architect:-        ||PLANNED_ARCHITECT||                                                        ",
+          "value": "||PLANNED_ARCHITECT||"
+        },
+        {
+          "label": "\n                                                            Signature Of Admin:-        ||SIGNATURE_OF_ADMIN||                                                        ",
+          "value": "||SIGNATURE_OF_ADMIN||"
+        },
+        {
+          "label": "\n                                                            Completion In Years:-        ||COMPLETION_IN_YEARS||                                                        ",
+          "value": "||COMPLETION_IN_YEARS||"
+        },
+        {
+          "label": "\n                                                            Tenant:-        ||TENANT||                                                        ",
+          "value": "||TENANT||"
+        },
+        {
+          "label": "\n                                                            Shops:-        ||SHOPS||                                                        ",
+          "value": "||SHOPS||"
+        },
+        {
+          "label": "\n                                                            Approx Floors:-        ||APPROX_FLOORS||                                                        ",
+          "value": "||APPROX_FLOORS||"
+        },
+        {
+          "label": "\n                                                            Flat Config:-        ||FLAT_CONFIG||                                                        ",
+          "value": "||FLAT_CONFIG||"
+        },
+        {
+          "label": "\n                                                            No Of Parking:-        ||NO_OF_PARKING||                                                        ",
+          "value": "||NO_OF_PARKING||"
+        },
+        {
+          "label": "\n                                                            Min No Of Elevator:-        ||MIN_NO_OF_ELEVATOR||                                                        ",
+          "value": "||MIN_NO_OF_ELEVATOR||"
+        }
+      ]
+    },
+    {
+      "key": "terms",
+      "route": "pmc-terms-cond",
+      "html": " <p><span style=\"font-size:12px\"><!--/it--><!--it--></span><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if--></strong><!--/if--><!--/it--><!--/for--><!--/comp--></span><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><!--if--> <u>GENERAL TERMS & CONDITIONS OF WORK ORDER</u><!--/if--><!--/it--><!--/for--><!--/comp--></span><span style=\"font-size:12px\"><u><!--/it--><!--it--></u></span><span style=\"font-size:12px\"><u><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if--></strong><!--/if--><!--/it--><!--/for--><!--/comp--></u></span><span style=\"font-size:12px\"><u><!--/it--><!--it--></u></span></p>\n\n<p><!--/it--><!--/for--><!--/comp--></p>\n\n<p><span style=\"font-size:12px\"><strong>1. Scope of Work and Performance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall perform the work and services specified in the WO, including applicable engineering, design, consultancy, supply, installation, testing, commissioning, supervision, or other activities, as applicable. Work shall conform to the approved drawings, specifications, agreed standards, project requirements, and timelines stated in the WO. Any change in scope, price, or schedule shall require written approval from authorised representatives of both parties.</span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->2. Work Order Acceptance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The WO, together with these Terms and any expressly incorporated documents, shall constitute the agreement between the parties for the relevant engagement. Acceptance shall be evidenced by signature, written confirmation, or commencement of work against the WO. Any additional or conflicting terms proposed by the Service Provider shall not apply unless accepted in writing by the Company.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->3. Price, Invoicing and Payment<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The agreed rates, fees, milestones, taxes, and payment terms shall be as stated in the WO. Invoices shall be supported by applicable work completion certificates, measurement sheets, approved deliverables, or other agreed supporting documents. The Company shall pay undisputed amounts within [30] days of receipt of a compliant invoice and fulfilment of the applicable payment conditions. Any disputed amount shall be notified with reasonable particulars, and the parties shall work towards resolution; undisputed amounts shall be paid when due. Statutory deductions, including TDS, and applicable GST requirements shall be handled in accordance with law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->4. Timelines, Delays and Changes<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall meet the agreed milestones and promptly notify the Company of any actual or anticipated delay, including its cause and mitigation plan. Extensions attributable to approved scope changes, delayed Company inputs, or qualifying force majeure events shall be assessed fairly and documented in writing. Any delay damages or other contractual remedies shall apply only where expressly specified in the WO and subject to applicable law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->5. Quality, Inspection and Defect Rectification<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall exercise reasonable professional skill, care, and diligence and comply with agreed quality and acceptance criteria. The Company may inspect work and request reasonable supporting records. Inspection, review, payment, or acceptance shall not relieve the Service Provider of its contractual obligations. Defects attributable to the Service Provider shall be rectified within a reasonable period at no additional cost, to the extent covered by the agreed scope and applicable warranty. Any specific warranty period shall be stated in the WO.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->6. Health, Safety and Site Compliance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->For site-related work, the Service Provider shall comply with applicable health, safety, environmental, labour, and site-access requirements, including lawful instructions and project safety procedures communicated by the Company or principal client. The Service Provider shall provide competent personnel, appropriate protective equipment, and required permits or licences for its activities. Any incident, unsafe condition, property damage, or injury connected with the work shall be promptly reported. Each party shall remain responsible for its own acts, omissions, and legal obligations.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->7. Personnel, Statutory Compliance and Insurance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall ensure that its personnel are appropriately qualified and authorised and that applicable wages, taxes, social security contributions, labour registrations, and other statutory obligations relating to its engagement are fulfilled. Where required by the nature of the work or specified in the WO, the Service Provider shall maintain appropriate insurance, including employee compensation, public liability, or professional indemnity cover, and provide evidence upon request. Nothing in these Terms shall override the actual legal status or statutory rights of any individual.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->8. Confidentiality and Data Protection<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall protect all confidential business information, client details, drawings, designs, technical documents, pricing, project records, and data received or accessed during the engagement. Such information shall be used only for the WO and shall not be disclosed without prior written consent, except as required by law. The Service Provider shall apply reasonable security measures and promptly notify the Company of any suspected unauthorised disclosure or loss. Upon completion or termination, Company information shall be returned or securely deleted, subject to applicable legal retention requirements. These obligations shall survive termination.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->9. Intellectual Property and Project Documents<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Project-specific drawings, reports, calculations, designs, specifications, models, documents, and other deliverables shall be owned or licensed by the Company as expressly specified in the WO or a separate written agreement. Any assignment of intellectual property shall be documented in writing and specify the applicable rights, duration, territory, and consideration as required by law. The Service Provider shall identify pre-existing intellectual property and third-party materials incorporated into the deliverables and shall not incorporate restricted materials without prior approval and appropriate usage rights. The Company shall respect any pre-existing rights expressly reserved by the Service Provider.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->10. Subcontracting and Conflicts of Interest<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall not assign the WO or subcontract material obligations without the Company's prior written consent. Approved subcontracting shall not relieve the Service Provider of its responsibilities under the WO. The Service Provider shall disclose any actual conflict of interest and shall not engage in fraud, bribery, or unlawful conduct in connection with the engagement.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->11. Liability and Indemnity<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Each party shall be responsible for losses to the extent arising from its breach of contract, negligence, wilful misconduct, or violation of applicable law. The Service Provider shall indemnify the Company against third-party claims, direct losses, and reasonable costs to the extent caused by the Service Provider's proven breach, negligence, wilful misconduct, or infringement of third-party intellectual property rights. The affected party shall promptly notify the other party of relevant claims and reasonably cooperate in their defence. Any liability cap, exclusions, or additional indemnities shall be expressly agreed in the WO. Nothing in this clause excludes liability that cannot lawfully be excluded.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->12. Suspension and Termination<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Either party may terminate the WO for a material breach by the other party if the breach remains unremedied for [15] days after written notice, where capable of remedy. The Company may suspend work for reasonable project, safety, compliance, or operational grounds by written notice. Either party may terminate for prolonged force majeure or other grounds expressly stated in the WO. On termination, the Service Provider shall stop the affected work, protect work in progress, return Company property, and hand over completed deliverables for which payment is due. The Company shall pay for conforming services properly performed up to the termination date, together with any other amounts expressly payable under the WO, subject to agreed adjustments and applicable law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->13. Force Majeure<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Neither party shall be liable for failure or delay to the extent directly caused by an event beyond its reasonable control that could not reasonably have been prevented or overcome. The affected party shall promptly notify the other party, provide reasonable particulars, and take steps to mitigate the impact. If the event continues beyond [30] days, either party may seek a mutually agreed solution or exercise any termination right specified in the WO. Amounts due for work already performed shall remain payable in accordance with the WO.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->14. Dispute Resolution and Governing Law<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The parties shall first attempt to resolve disputes through good-faith discussions between their authorised representatives. If unresolved within [30] days, the dispute shall be referred to [mutually agreed arbitration / competent courts], as specified in the WO. The agreement shall be governed by the laws of India. The agreed venue or seat of arbitration, if applicable, and the competent court jurisdiction shall be specified in the WO, subject to applicable law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->15. General Provisions and Order of Precedence<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The WO, these Terms, and expressly incorporated schedules shall be read together. In case of inconsistency, the specific WO provisions shall prevail only to the extent of the inconsistency, unless expressly agreed otherwise in writing. Amendments must be documented in writing by authorised representatives. If any provision is unenforceable, the remaining provisions shall continue to the extent permitted by law. Provisions relating to confidentiality, intellectual property, accrued payments, liability, and dispute resolution shall survive to the extent necessary after completion or termination.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->Acknowledgement:<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><!--if--> Acceptance of the WO constitutes acceptance of these Terms, subject to applicable law and the agreed contractual documents.<!--/if--><!--/it--><!--/for--><!--/comp--></span><span style=\"font-size:12px\"><!--/it--><!--it--></span><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><!--if--></span></p>\n",
+      "macros": []
+    }
+  ]
+}

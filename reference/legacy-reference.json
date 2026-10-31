@@ -1,0 +1,3634 @@
+{
+  "source": "https://skrite.com/stallion-build-test/alpha-force/backend/",
+  "capturedAt": "2026-10-28T10:08:48.009Z",
+  "permissions": [
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "'P' Form for permanent water conn.",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "12mtr Road",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "353A Form for work completion on site.",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "9Mtr Road",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "A.A. & C No dues Pending Certificate from MCGM",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "A.E.W.W (Water Works) Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "ADC premium",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Adequate & decent temporary sanitary accommodation on construction site",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Adequate Safeguards to be employed with consultation with SWM Dept.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "All due clearance from A.E.W.W. D Ward - Tax Clearance",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "All paid receipts",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "All paid receipts for all unclosed demand note",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Amend - 1",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Amend - 2",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Amend - 3",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Amend - 4",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "AMSL Survey - Certificate for height Verification of the building from private site surveyor along with Block Plan + Section. (For ‘P’, ‘K’, ‘H’, ‘L’ – Ward).",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Application Letter by consultant, Appendix II by Consultant with Developers Signature, Lic. Copy of Plumber and Drainage completion Plans.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Application Letter for OC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Appointment/Acceptance & Valid License of Public Health Consultant (SWD, SP, SWM, SO, PCO).",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Appointment/Acceptance of architect",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Appointment/Acceptance of licenced plumber",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Architect Application cum compliance report for First CC.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Architect Application letter",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Architect Report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Assessment Bills and respective Paid Receipts",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Auto DCR drawing",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Bank Guarantee submission Letter",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Bank Guarantee with 0.5% stamp duty",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "BEST Electric Connection for Construction",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Best NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "BG with stamp duty, SWM NOC, challan loading and unloading details from developers, validity of permission",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Board displaying project development details",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Borewell permission from PCO & HE department",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Building Completion Certificate (BCC)",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "C.T.S Plan",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Car Lift Certificate & Passenger Lift Certificate.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Carriageway Permission",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Category Certificate",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CC - Estate Further",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CC - Estate Plinth",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "CC Validity with paid receipts",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "CFO Completion NOC from Fire Dept.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "NMMC",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "CFO NOC",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CFO NOC - 1",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CFO NOC - 2",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CFO NOC - 3",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "CFO NOC Issue letter & Drawing",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "CFO NOC to OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Charity Commissioner NOC",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CHIEF CONTROLLER OF EXPLOSIVES",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Civil Aviation NOC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)"
+      ],
+      "status": "Active",
+      "title": "Cliff Stability certificate",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Collector NOC if applicable",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Collector Office for Non-Agriculture - Order/Approval",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Completion Certificate, Lic. Copy of Engineer, Calculation and RCC Plans.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Completion Letter from Parking installation consultant for stack parking & puzzle parking.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Compliance Check Report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Compliance of ChE. DP and MC in Report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Compliance of Rejection points, if any.",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Compliances Letter - CC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Comprehensive indemnity bond by owner (Rs.500 stamp paper to be registered)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Comprehensive Undertaking - MCGM (CC)",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Comprehensive Undertaking - MCGM (IOD)",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Comprehensive Undertaking - MCGM (OC)",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Construct compound wall on all sides of the plot as per approved plan.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Construction area certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "CRZ NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "CSLR Plot boundary demarcation",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "CSLR/CS Plan",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "CTS Plan",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Curvature Demarcation",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Curvature Setback Handover",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "DCP - Police Department",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Debris Demolition paid receipt",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Debris NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Deed of conveyance (True copy)",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "DEFENCE (COD)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Deficiency plans with area calculation for payment sheet",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Demand Register Compy of existing tenants",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "demolition",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Demolition of existing building",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Developer registration on AutoDCR",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Developer/ Owner Application for Excavation permission submitted copy",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Developer/ Owner letter for water to be used for construction",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Development agreement of power of attorney",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Development charges",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Directorate of Industries - IT Additional FSI",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Display Board",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Doctor Appointment",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Down take Design",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "DP Remarks 2034",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Drainage Approval (By Licensed Plumber)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Drawing as per requirements of client and confirmation after completion of dwg. from client.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Dust Bin - Photograph",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "E.E. (M.&E.) NOC for Mechanical Ventilation",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "E.E.(M.&E.)/consultants remark for basement ventilation",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "E.E.(T.&C.) NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Earlier payment sheet and paid receipts",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Email id - Updated AutoDCR",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Environmental Impact Assessment Report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Estate Department OC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Estate EODB NOC to CC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Estate Formal NOC",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Estate Formal NOC to CC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Estate Lease Transfer",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Estate NOC to FCC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Estate Noc to OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Estate OTP - NOC to CC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Exact Tree location on site",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Excavation permission from collector (MSD)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Excavation Permission to be submitted before work start Notice instead of Issue of First CC, Request letter from Developer/ Owner.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Existing authenticity of structure/approved plan",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Existing Structure shall be demolished or Phase programme shall be approved – Latest photo of Vacant plot",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Extra Water & Sewerage Charges paid receipt",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Extra Water charges and extra Sewerage charges to be paid",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "FCC 1",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "FCC 2",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "FCC 3",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "FCC 4",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Feasibility report for basement by Geologist",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Final NOC from ward along with receipt of possession and other details of PAPs",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Fire Safety Appointment/Acceptance letter & Valid License Copy",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Form 33(7)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Form 44/69",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Fresh tax clearance certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Fungible Installment Approval",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Fungible premium",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Fungible Table",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "G.I. Sheet at plot boundary & compound wall photos.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "GBR for 33(7)(B) incentive",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Geological Test Report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "H.E. OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Height verification",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "High Rise committee NOC (>120 m)",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "High Rise NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Hydraulic Engineer (H.E.) Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Hydrualic (H.E.) NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Indemnity Bond - MCGM - IOD",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Indemnity Bond - MCGM - OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Indemnity Bond - MCGM -CC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Indemnity Bond before CC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Individual BUA Diagram",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)"
+      ],
+      "status": "Active",
+      "title": "Inspection extract",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Internal Drainage",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Internal SWD",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Internal SWD completion from consultant",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "IOD",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Janta Insurance Appointment/Acceptance letter.",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Labour Welfare premium",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Last Approved Plan",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Latest Approved Plan to submit",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Letter for RCC Frame structure, cantilever projections and wall thickness",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(20)(B)",
+        "33(12) (A)/(B)",
+        "33(19)"
+      ],
+      "status": "Active",
+      "title": "Letter for water tanker",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Letter from Owner/Developer.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Licensed Plumber Appointment, Acceptance, Valid license & Sanitary arrangement plan.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "M & E Consultants appointment, acceptance, certificate & NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Material Testing report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "MCGM Final OC- now issued with BCC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "MCGM Undertaking (Registered)",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "MCZMA NOC",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Mechanical Ventilation NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "MEP Consultant Appointment",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Metro NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "MHADA Certified Tenant List",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "MHADA LOI",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA LOI",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA No Dues",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA NOC",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA NOC for exact surplus",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Mhada NOC Surplus Area",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA NOC to CC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA NOC to OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)"
+      ],
+      "status": "Active",
+      "title": "MHADA NOC with tenant list & plan",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA Revalidation NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA Revised 5% NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "MHADA Split NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "MHCC NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "MMRC NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "MOEF",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "MoEF NOC (>20000 sq.m)",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Mono Rail NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Monthly progress report & LS, Arch as well.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "N.A. (Non – Agricultural permission)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Nalla Completion",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Nalla Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Name Plate Board - Photograph",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "National Monuments Authority (NMA)",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "NAVAL (Navy) - Naval Armament Depot",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Navy Defense NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Neighbourhood drawing",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "No Dues Certificate by A.E.W.W. (Water Works)",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "No Dues Certificate from Assessment Department",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "NOC from Electric Power Supply company",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "NOC from Tree Authority/ Horticulturist",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "NOC from ward with List of Members and other details",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Noted by Owner/ Developer Letter for required conditions",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "OHT Photograph along with Ladder connecting to OHT",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Oil and Gas pipelines department",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Open space Charges",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Owners affidavit for area of plot",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Ownership document",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "P.R. Card (In words)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Parking Maintenance Undertaking",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Parking NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Parking remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Parking/ Traffic consultant NOC with Drawing",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Pathway - Photograph",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Payment sheet",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Payment sheet and check earlier paid payment",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Payment To be paid before issue of OCC, if any (Demand note to be generated by Architect office).",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "PCO NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "PCO One time charges",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "PCO Premium deposit (MCGM)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Personal identification ( Pan card, Email ID, Aadhar card, contact no.) - Notary",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Pest control agency Appointment/Acceptance letter & Valid License copy",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Pest Control Officer (P.C.O.) Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Pest Control Private",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Photo of Display Board with all required details",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Plinth completion certificate",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Plinth Plan",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Plinth Stability report",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Plot area certification (Architect)",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Plot Demarcation",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Plot Survey",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Police Noc",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "PORT TRUST (Mumbai Port Trust)",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "PRC in name of owner",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Premium Deposits",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Property Card Name updation + A31:A34",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Property Card Updation",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Puzzle Parking Video + Photo",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "PWD License",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Quality of Work Certificate and Completion of Work Certificate along with Lic. Copy of Site supervisor.",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "RAILWAY AUTHORITY",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Rain Water Harvesting Completion letter from Consultant along with Photos of RWH System on site.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "RCC Consultant Appointment letter, Acceptance letter & Valid License Copy.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "RCC Design & Calculations (As per relevant IS Code)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "RCC Design calculation & Drawing for Entire building.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "RCC Letter - frame structure not less than 230mm",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "RCC Stability Certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Registered Comprehensive Undertaking",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Registered undertaking before CC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Requisite documents for SWM NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "RERA Certificate",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "RL Demarcation",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "ROAD OWNING AGENCY",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Royalty Collector",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Royalty NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "RUT for maintenance of parking",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "NMMC",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "RWH (Rain water Harvesting) Design",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "RWH Appointment, acceptance, licence, design & calculations",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "S.O. retain street conn. permission",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "S.P(P&D) NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Safety officer appointment, acceptance and certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Self-declaration by Owner/ Developer for No trees affected",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Set back Handing Over/ Any Reservation of plot - PRC in the name of MCGM.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Setback Demarcation through A.E.(Survey)/E.E.(T&C)/D.I.L.R.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Setback Handover",
+      "type": "CC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Sewarage NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Sewerage Project (SP) P&D Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Signed Payment Sheet, Demand Notes & respective Paid Receipts in sequence within same PDF.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Site boundary/ dimensions to be verified as per IOD plans",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Site inspection and photographs",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Site photos & video from 4 sides",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Site Supervision Completion Certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "site supervisor",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Site Supervisor Appointment and Acceptance",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Site Supervisor appointment, acceptance and license",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Smoke & Pond test certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Smoke & Ponding Test letter from Plumber",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Society Formation",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Society GBR",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Society NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Society Registration Certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "SPP & D Completion",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Stack Parking Video + Photo",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Staircase premium",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Storm Water Drain (SWD) Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Storm Water NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "structural appointment",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Structural Consultant Completion Certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Structural Design and Calculations",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Structural Engineer appointment, Acceptance & Valid License copy",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Structural Stability Certificate",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Submitted Bank Guarantee with stamp duty acknowledgment from H.C. (Exp)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Supervision Completion Certificates",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Surrounding Open Space, Parking Spaces and Terrace – Photograph",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "NMMC",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Survey Remarks",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "SWD Completion",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "SWD NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "SWM Challans",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "SWM NOC & BG",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "SWM Plan - Debris Management Plan",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Tax Clearance certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Tax Clearance Certificate - A.A. & C. - CC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Tax Clearance Certificate - A.A. & C. - IOD",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Tax Clearance Certificate- A.A. & C. - OC",
+      "type": "OC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "TDR utilization with DRC if any",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "The Chief Inspector of Factories",
+      "type": ""
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "The Power Distribution / Supply Agency - Including High Tension Line NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Third Party Insurance",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)"
+      ],
+      "status": "Active",
+      "title": "Title certificate (Original)",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(9)"
+      ],
+      "status": "Active",
+      "title": "Traffic Impact Assessment Report",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Tree Consultant/ Horticulturist Appointment/Acceptance letter",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Tree Consultant/ Horticulturist Valid License copy/ B.Sc. (Botany)/ Horticulture/ Agriculture Graduation Certificate",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Tree NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Tree NOC - Completion Certificate for Plantation of Trees for OCC.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Triparty Agreement between Developer, BMC & PAP",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)"
+      ],
+      "status": "Active",
+      "title": "True Extract",
+      "type": "IOD"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "ULC NOC",
+      "type": "IOD"
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Undertaking + Consent from purchaser - Undertaking is to be given by developer for unfinished or raw flats. (As Format).",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Undertaking for installment",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Update paid receipts from SE’s console.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Valid BG",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Valid Janta Insurance Policy with Site address",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Valid Online SWM Remarks",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Valid SWM NOC",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(20)(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Vermiculture bin NOC from MCGM and Photograph of Vermiculture Bin on site.",
+      "type": ""
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Vermiculture Design",
+      "type": "OC"
+    },
+    {
+      "schemes": [],
+      "status": "Active",
+      "title": "Water Pipe Line Dept NOC Plot",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(9)",
+        "33(11)",
+        "33(20)(B)",
+        "NMMC"
+      ],
+      "status": "Active",
+      "title": "Water Works NOC",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)",
+        "33(12) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Work Start Notice",
+      "type": "CC"
+    },
+    {
+      "schemes": [
+        "33(7) (A)/(B)"
+      ],
+      "status": "Active",
+      "title": "Workman Policy",
+      "type": "CC"
+    }
+  ],
+  "templates": [
+    {
+      "title": "Work order template",
+      "category": "Work order",
+      "route": "pmc-workorder-template",
+      "editors": [
+        {
+          "field": "template_content",
+          "html": " <div style=\"font-family:arial; font-size:12px\">\n<div id=\"top\" style=\"float:left; height:auto; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; width:100%\">\n<table border=\"0\" cellspacing=\"0\" style=\"font-family:arial; width:100%\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>To,</td>\n\t\t\t<td style=\"text-align:right\"><strong>W.O No.: ||WO_NO||</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>||DEVELOPER_NAME||</td>\n\t\t\t<td style=\"text-align:right\"><strong>Date: ||CURRENT_DATE||</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>||DEVELOPER_ADDRESS||</td>\n\t\t\t<td style=\"text-align:right\"> </td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n \n\n<div id=\"sub\" style=\"float:left; height:auto; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; padding:12px 0; text-align:center; width:100%\"><strong>Sub. :</strong> Work Order is ||REISSUED|| for ||DESCRIPTION|| at “||PROJECT_NAME||”.</div>\n\n<div id=\"text\">Dear Sir,<br />\n<br />\nWe are pleased to raise this Work Order for ||DESCRIPTION|| for “||PROJECT_NAME||” at ||PROJECT_ADDRESS||. The rates are mentioned below;</div>\n \n\n<div id=\"main-struc\">||BILLING_STRUCTURE||</div>\n\n<div id=\"details\"> \n<div><strong><u>Notes</u>:- </strong></div>\n\n<ul>\n\t<li><strong>Description - </strong>||DESCRIPTION||</li>\n\t<li><strong>Retention - </strong>||Retention||%</li>\n</ul>\n\n<div><strong><u>Project Details</u>:- </strong>\n\n<ul>\n\t<li><strong>Project Address -</strong>||PROJECT_ADDRESS||</li>\n\t<li><strong>Contact Person at Site - </strong>||Site_coordinator||</li>\n\t<li><strong>Company GST Number - </strong>||gst_number||</li>\n\t<li><strong>Company PAN Number - </strong>||pan_number||</li>\n</ul>\n\n<div><strong><u>Developer Details</u>:- </strong></div>\n\n<ul>\n\t<li><strong>Name/Contact No. - </strong>||Service_Provider_Contact||</li>\n\t<li><strong>Email Id - </strong>||Service_Provider_Email||</li>\n\t<li><strong>Bank Name - </strong>||Service_Provider_Bank_Name||</li>\n\t<li><strong>Bank A/C No. - </strong>||Service_Provider_Bank_A/C||</li>\n\t<li><strong>Bank IFSC - </strong>||Service_Provider_Bank_IFSC||</li>\n\t<li><strong>GST No. - </strong>||SERVICE_PROVIDER_GST||</li>\n\t<li><strong>PAN No. - </strong>||SERVICE_PROVIDER_PAN||</li>\n</ul>\n\n<div> </div>\n \n\n<p>||TERMS_COND||</p>\n\n<div style=\"float:left; padding:16px 16px 16px 0px; width:80%\">Thanking You.<br />\nFor ||PMC_COMPANY_NAME||<br />\n||SIGNETURE||<br />\n||WO_SIGN_DATE||<br />\n||DESIGNATION||</div>\n</div>\n</div>\n</div>\n"
+        }
+      ]
+    },
+    {
+      "title": "Demand / invoice template",
+      "category": "Invoice",
+      "route": "demand-invoice-template",
+      "editors": [
+        {
+          "field": "template_content",
+          "html": " <p>aaaa ||PLOT_SOCIETY_NAME||</p>\n\n<p>bbb||SOCIETY_LOCATION||</p>\n"
+        }
+      ]
+    },
+    {
+      "title": "Terms & conditions",
+      "category": "Terms & conditions",
+      "route": "pmc-terms-cond",
+      "editors": [
+        {
+          "field": "template_content",
+          "html": " <p><span style=\"font-size:12px\"><!--/it--><!--it--></span><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if--></strong><!--/if--><!--/it--><!--/for--><!--/comp--></span><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><!--if--> <u>GENERAL TERMS & CONDITIONS OF WORK ORDER</u><!--/if--><!--/it--><!--/for--><!--/comp--></span><span style=\"font-size:12px\"><u><!--/it--><!--it--></u></span><span style=\"font-size:12px\"><u><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if--></strong><!--/if--><!--/it--><!--/for--><!--/comp--></u></span><span style=\"font-size:12px\"><u><!--/it--><!--it--></u></span></p>\n\n<p><!--/it--><!--/for--><!--/comp--></p>\n\n<p><span style=\"font-size:12px\"><strong>1. Scope of Work and Performance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall perform the work and services specified in the WO, including applicable engineering, design, consultancy, supply, installation, testing, commissioning, supervision, or other activities, as applicable. Work shall conform to the approved drawings, specifications, agreed standards, project requirements, and timelines stated in the WO. Any change in scope, price, or schedule shall require written approval from authorised representatives of both parties.</span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->2. Work Order Acceptance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The WO, together with these Terms and any expressly incorporated documents, shall constitute the agreement between the parties for the relevant engagement. Acceptance shall be evidenced by signature, written confirmation, or commencement of work against the WO. Any additional or conflicting terms proposed by the Service Provider shall not apply unless accepted in writing by the Company.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->3. Price, Invoicing and Payment<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The agreed rates, fees, milestones, taxes, and payment terms shall be as stated in the WO. Invoices shall be supported by applicable work completion certificates, measurement sheets, approved deliverables, or other agreed supporting documents. The Company shall pay undisputed amounts within [30] days of receipt of a compliant invoice and fulfilment of the applicable payment conditions. Any disputed amount shall be notified with reasonable particulars, and the parties shall work towards resolution; undisputed amounts shall be paid when due. Statutory deductions, including TDS, and applicable GST requirements shall be handled in accordance with law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->4. Timelines, Delays and Changes<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall meet the agreed milestones and promptly notify the Company of any actual or anticipated delay, including its cause and mitigation plan. Extensions attributable to approved scope changes, delayed Company inputs, or qualifying force majeure events shall be assessed fairly and documented in writing. Any delay damages or other contractual remedies shall apply only where expressly specified in the WO and subject to applicable law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->5. Quality, Inspection and Defect Rectification<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall exercise reasonable professional skill, care, and diligence and comply with agreed quality and acceptance criteria. The Company may inspect work and request reasonable supporting records. Inspection, review, payment, or acceptance shall not relieve the Service Provider of its contractual obligations. Defects attributable to the Service Provider shall be rectified within a reasonable period at no additional cost, to the extent covered by the agreed scope and applicable warranty. Any specific warranty period shall be stated in the WO.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->6. Health, Safety and Site Compliance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->For site-related work, the Service Provider shall comply with applicable health, safety, environmental, labour, and site-access requirements, including lawful instructions and project safety procedures communicated by the Company or principal client. The Service Provider shall provide competent personnel, appropriate protective equipment, and required permits or licences for its activities. Any incident, unsafe condition, property damage, or injury connected with the work shall be promptly reported. Each party shall remain responsible for its own acts, omissions, and legal obligations.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->7. Personnel, Statutory Compliance and Insurance<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall ensure that its personnel are appropriately qualified and authorised and that applicable wages, taxes, social security contributions, labour registrations, and other statutory obligations relating to its engagement are fulfilled. Where required by the nature of the work or specified in the WO, the Service Provider shall maintain appropriate insurance, including employee compensation, public liability, or professional indemnity cover, and provide evidence upon request. Nothing in these Terms shall override the actual legal status or statutory rights of any individual.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->8. Confidentiality and Data Protection<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall protect all confidential business information, client details, drawings, designs, technical documents, pricing, project records, and data received or accessed during the engagement. Such information shall be used only for the WO and shall not be disclosed without prior written consent, except as required by law. The Service Provider shall apply reasonable security measures and promptly notify the Company of any suspected unauthorised disclosure or loss. Upon completion or termination, Company information shall be returned or securely deleted, subject to applicable legal retention requirements. These obligations shall survive termination.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->9. Intellectual Property and Project Documents<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Project-specific drawings, reports, calculations, designs, specifications, models, documents, and other deliverables shall be owned or licensed by the Company as expressly specified in the WO or a separate written agreement. Any assignment of intellectual property shall be documented in writing and specify the applicable rights, duration, territory, and consideration as required by law. The Service Provider shall identify pre-existing intellectual property and third-party materials incorporated into the deliverables and shall not incorporate restricted materials without prior approval and appropriate usage rights. The Company shall respect any pre-existing rights expressly reserved by the Service Provider.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->10. Subcontracting and Conflicts of Interest<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The Service Provider shall not assign the WO or subcontract material obligations without the Company's prior written consent. Approved subcontracting shall not relieve the Service Provider of its responsibilities under the WO. The Service Provider shall disclose any actual conflict of interest and shall not engage in fraud, bribery, or unlawful conduct in connection with the engagement.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->11. Liability and Indemnity<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Each party shall be responsible for losses to the extent arising from its breach of contract, negligence, wilful misconduct, or violation of applicable law. The Service Provider shall indemnify the Company against third-party claims, direct losses, and reasonable costs to the extent caused by the Service Provider's proven breach, negligence, wilful misconduct, or infringement of third-party intellectual property rights. The affected party shall promptly notify the other party of relevant claims and reasonably cooperate in their defence. Any liability cap, exclusions, or additional indemnities shall be expressly agreed in the WO. Nothing in this clause excludes liability that cannot lawfully be excluded.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->12. Suspension and Termination<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Either party may terminate the WO for a material breach by the other party if the breach remains unremedied for [15] days after written notice, where capable of remedy. The Company may suspend work for reasonable project, safety, compliance, or operational grounds by written notice. Either party may terminate for prolonged force majeure or other grounds expressly stated in the WO. On termination, the Service Provider shall stop the affected work, protect work in progress, return Company property, and hand over completed deliverables for which payment is due. The Company shall pay for conforming services properly performed up to the termination date, together with any other amounts expressly payable under the WO, subject to agreed adjustments and applicable law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->13. Force Majeure<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->Neither party shall be liable for failure or delay to the extent directly caused by an event beyond its reasonable control that could not reasonably have been prevented or overcome. The affected party shall promptly notify the other party, provide reasonable particulars, and take steps to mitigate the impact. If the event continues beyond [30] days, either party may seek a mutually agreed solution or exercise any termination right specified in the WO. Amounts due for work already performed shall remain payable in accordance with the WO.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->14. Dispute Resolution and Governing Law<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The parties shall first attempt to resolve disputes through good-faith discussions between their authorised representatives. If unresolved within [30] days, the dispute shall be referred to [mutually agreed arbitration / competent courts], as specified in the WO. The agreement shall be governed by the laws of India. The agreed venue or seat of arbitration, if applicable, and the competent court jurisdiction shall be specified in the WO, subject to applicable law.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->15. General Provisions and Order of Precedence<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><br />\n<!--/it--><!--it--><!--if-->The WO, these Terms, and expressly incorporated schedules shall be read together. In case of inconsistency, the specific WO provisions shall prevail only to the extent of the inconsistency, unless expressly agreed otherwise in writing. Amendments must be documented in writing by authorised representatives. If any provision is unenforceable, the remaining provisions shall continue to the extent permitted by law. Provisions relating to confidentiality, intellectual property, accrued payments, liability, and dispute resolution shall survive to the extent necessary after completion or termination.<!--/if--><!--/it--><!--/for--><!--/comp--></span></p>\n\n<p><span style=\"font-size:12px\"><!--/it--><!--it--></span></p>\n\n<p><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><strong><!--comp--><!--for--><!--it--><!--if-->Acknowledgement:<!--/if--><!--/it--><!--/for--><!--/comp--></strong><!--/it--><!--it--><!--if--> Acceptance of the WO constitutes acceptance of these Terms, subject to applicable law and the agreed contractual documents.<!--/if--><!--/it--><!--/for--><!--/comp--></span><span style=\"font-size:12px\"><!--/it--><!--it--></span><span style=\"font-size:12px\"><!--comp--><!--for--><!--it--><!--if--></span></p>\n"
+        }
+      ]
+    },
+    {
+      "title": "Preliminary Consent Letter",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/MTE=",
+      "editors": [
+        {
+          "field": "content",
+          "html": ""
+        }
+      ]
+    },
+    {
+      "title": "Letter of Interest",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/NQ==",
+      "editors": [
+        {
+          "field": "content",
+          "html": "<p>Offer Letter</p>\n"
+        }
+      ]
+    },
+    {
+      "title": "Development Agreement",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/NA==",
+      "editors": [
+        {
+          "field": "content",
+          "html": "<p>Development Agreement</p>\n"
+        }
+      ]
+    },
+    {
+      "title": "Escrow Letter",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/Mw==",
+      "editors": [
+        {
+          "field": "content",
+          "html": "<p>letter of interest</p>\n"
+        }
+      ]
+    },
+    {
+      "title": "PAAA",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/Mg==",
+      "editors": [
+        {
+          "field": "content",
+          "html": "<p>tender</p>\n"
+        }
+      ]
+    },
+    {
+      "title": "Power of Attorney",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/MQ==",
+      "editors": [
+        {
+          "field": "content",
+          "html": "<p>expression</p>\n"
+        }
+      ]
+    },
+    {
+      "title": "Letter of Intent",
+      "category": "Legal draft",
+      "route": "pmc-document-draft-edit/OQ==",
+      "editors": [
+        {
+          "field": "content",
+          "html": ""
+        }
+      ]
+    }
+  ],
+  "tenderFields": [
+    {
+      "name": "regulation_scheme_id",
+      "value": "2"
+    },
+    {
+      "name": "header_srno[0]",
+      "value": "1"
+    },
+    {
+      "name": "header_name[0]",
+      "value": "DISPLACEMENT OF MEMBERS"
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.1"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to the Members per\nsquare foot of Existing Carpet Area\n(including balcony but excluding\ncommon carpet areas) for a period\nfrom the date of first C.C which shall\nbe increased by 10% every 12 months\ntill handing over the possession of the\nMembers’ New Premises to the\nMembers.\nRent for the 1st to 48th month to be paid\nin advance simultaneously with the\nexecution of Development Agreement\nby way of one pay order / post-dated\ncheques (PDC’s).\nRent for any period after Grace Period\nto be paid to the Members on an annual\nbasis by way of one post-dated cheque."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": ""
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.2."
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for the 1st to 12th month which shall\nstart post the receipt of First\nCommencement Certificate (F.C.C),\nshall be paid to all the Members\nsimultaneously against the Execution of\nDevelopment Agreement."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.110/-per square\nfoot of Existing\nCarpet Area\n(Including balcony,\nexcluding Common\nareas) of the\nMembers per month"
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.3"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for the 13th to 24th month with 10%\nincrease"
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.4"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for 25th to 36th month with 10%\nincrease"
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.5"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent for 37th to 48th month with 10%\nincrease"
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.6"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to Members for the\nperiod beyond the Grace Period until\nhandover of possession of the Members’\nnew Premises to the Members."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society\nexpects a minimum\nof Rs.160/-per\nsquare foot of\nExisting Area of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.7"
+    },
+    {
+      "name": "description[0][]",
+      "value": "In addition to the Rent mentioned above,\nthe amount that would be payable to\nMembers of Wing – D & Wing – E, from\nthe date of them vacating their respective\nExisting Premises (i.e. July 2024) till the\ndate of execution of the Development\nAgreement."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.8"
+    },
+    {
+      "name": "description[0][]",
+      "value": "In addition to the Rent mentioned above,\nthe amount that would be payable to the\nMembers of ‘C’ Wing from the date of\nthem having vacated (as per Society\noffice record) their respective Existing\nPremises till the date of execution of the\nDevelopment Agreement. It is clarified\nthat, certain members of ‘C’ Wing had\nalready commenced vacating their\nrespective Existing Premises since\nDecember 2024 and the details of the\ndate on which the Members of Wing ‘C’ have vacated their premises shall be\nmade available as per the society records."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.9"
+    },
+    {
+      "name": "description[0][]",
+      "value": "In addition to the Rent mentioned above,\nthe amount that would be payable to\nMembers of Wing – A & B from the date\nof them vacating (as per Society office\nrecord) their respective Existing\nPremises till the execution of\nDevelopment Agreement. The details of\nthe date on which the Members of Wing\n‘A’ & ‘B’ have vacated their respective\nExisting Premises shall be made\navailable as per the society records."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": ""
+    },
+    {
+      "name": "remark[0][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.10"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to Members of Wing- A,\nB, C, D & E, for the period from the date\nof execution of the Development\nAgreement until the receipt of Intimation\nof Disapproval (IOD)."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "1.11"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Rent to be paid to Members of Wing- A,\nB, C, D & E, for the period from the date\nof receipt of Intimation of Disapproval\n(IOD) until the receipt of First\nCommencement Certificate (F.C.C)."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- per square\nfoot per month"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of\nRs.85/- per square\nfoot of Existing\nArea of the\nMembers per\nmonth."
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "B"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Relocation / shifting charges to be payable\nto each Member per flat (i.e. for shifting\nfrom Existing Premises to temporary\naccommodation and from temporary\naccommodation to New Premises) at the\ntime of each Member vacating their\nrespective Existing Premises except for\nC,D & E Wings simultaneously with the\nexecution of Development Agreement."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- Per Flat"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\na minimum of [Rs.\n1,00,000/-] to Be\npaid per flat at the\ntime of vacating and\nRs.1,00,000/-\nAt the time of reshifting i.e total\nRs.2,00,000/-\n(Rupees two Lakhs\nonly"
+    },
+    {
+      "name": "trans_work_srno[0][]",
+      "value": "C"
+    },
+    {
+      "name": "description[0][]",
+      "value": "Brokerage charges to be payable to each\nMember at the time of each Member\nvacating their respective Existing\nPremises."
+    },
+    {
+      "name": "regulation[0][]",
+      "value": "Rs. /- Member"
+    },
+    {
+      "name": "remark[0][]",
+      "value": "The Society expects\nthe Developer to\npay minimum Two\nmonths’ Rent as\nBrokerage charges."
+    },
+    {
+      "name": "header_srno[1]",
+      "value": "2"
+    },
+    {
+      "name": "header_name[1]",
+      "value": "BENEFITS TO THE MEMBERS Note: due weightage shall be given to bids that exceed the expectation of the Society in respect of the benefits to be provided to Members."
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "A"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Percentage of additional carpet area (as\ndefined under MOFA) to be provided to\neach Member over and above their\nExisting Carpet Area as defined in Part\nA, Point 11.\nNote: The tenderer’s bids should clearly\ndescribe the regulation of DCPR under\nwhich the additional carpet area offer is\nmade."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": "The Society expects a\nminimum of 65% of\nadditional carpet\narea (as defined\nunder MOFA) to be\nprovided to each\nMember over and\nabove their Existing\nCarpet Area as\ndefined in Part A,\nPoint 11."
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "B"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Hardship Compensation (Corpus\nFund): to be paid to each Member on\nExisting Carpet Area (including\nbalcony but excluding common carpet\nareas)."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": "Rs. /- per square\nfoot"
+    },
+    {
+      "name": "remark[1][]",
+      "value": "The Society is\nexpecting upwards\nof Rs.2500/-per\nsquare foot of the\nExisting Area of\neach Member."
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "C"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Terms of Payment for Corpus Fund"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.1"
+    },
+    {
+      "name": "description[1][]",
+      "value": "On execution of Development\nAgreement"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.2"
+    },
+    {
+      "name": "description[1][]",
+      "value": "On vacating of the respective Flat by\neach Member"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.3"
+    },
+    {
+      "name": "description[1][]",
+      "value": "On Possession of the flats"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "2.4"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Total Corpus Fund"
+    },
+    {
+      "name": "regulation[1][]",
+      "value": "100%"
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "E"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Stamp Duty & Registration Charges on\nall documents pertaining to the redevelopment, including but not limited\nto the Development Agreement, PAAA\n(in respect of existing and additional\ncarpet area (as defined under MOFA) as\nwell as car parking spaces) to be borne\nand paid by the Developer."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "F"
+    },
+    {
+      "name": "description[1][]",
+      "value": "GST on the grant of development rights,\nexisting and additional area (i.e. the area\nof the Members received over and above\nthe Existing Premises)of the Members,\nconstruction of the Society Office\npremises, any sums payable to the\nMembers under the Development\nAgreement and PAAA including all\ncosts relating to the provision of the\nMembers New Area (including\nDisplacement Compensation, Rent,\nbrokerage, relocation / shifting charges,\nHardship Compensation /Corpus\nFund),any purchase of FSI from the\nGovernment / MCGM and any\ndocuments in respect thereof to be borne\nand paid by the Developer."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "G"
+    },
+    {
+      "name": "description[1][]",
+      "value": "All costs and expenses for (i) execution\nof lease deed between the Society and\nthe Governor of Maharashtra\n(Collector) (ii) conversion of the said\nLand from Class II to Class I (iii)\nupdating the Property Register Card for\nmutating/effectuating the rights of the\nSociety (iv) all outstanding dues, due\nand payable in the past and (v) premium,\npenalty, nazarana (by whatever name\ncalled) in relation of the aforesaid shall be borne and paid by the Tenderer/\nDeveloper."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "H"
+    },
+    {
+      "name": "description[1][]",
+      "value": "The tenderer is required to acknowledge\nand confirm that the conversion of the\nsaid Land from Occupancy Class II to\nOccupancy Class I shall be a condition\nprecedent to the execution of the\nDevelopment Agreement."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    },
+    {
+      "name": "trans_work_srno[1][]",
+      "value": "I"
+    },
+    {
+      "name": "description[1][]",
+      "value": "Any pending collector clearances\npertaining to individual members, if any\nshall be undertaken by the developer and\nall the associated costs shall be fully borne\nby the Developer."
+    },
+    {
+      "name": "regulation[1][]",
+      "value": ""
+    },
+    {
+      "name": "remark[1][]",
+      "value": ""
+    }
+  ]
+}
