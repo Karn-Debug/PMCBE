@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: pmcbe-1
+    runtime: node
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm run db:migrate && npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "24"
+      - key: HOST
+        value: 0.0.0.0
+      - key: APP_URL
+        value: https://pmcfe-three.vercel.app
+      - key: SEED_DEMO
+        value: "false"
+      - key: DATABASE_URL
+        sync: false

@@ -158,3 +158,23 @@ npm test
 3. Add business behavior in the relevant service; keep HTTP handling in the controller.
 4. Keep the response contract compatible, or change the frontend API handling deliberately.
 5. Run the regression suite and build, and test migration against a backup copy before deployment.
+
+## Separate Render API and Vercel frontend
+
+The API is `https://pmcbe-1.onrender.com` and the frontend is `https://pmcfe-three.vercel.app`.
+
+For the standalone **PMCBE** repository, leave Render's Root Directory empty. Use build command `npm ci --include=dev && npm run build`, start command `npm run db:migrate && npm start`, and health check `/api/health`. The build generates Prisma before compiling TypeScript; the start command applies pending migrations without resetting or seeding the database. `render.yaml` records these settings for a Blueprint deployment; an existing manually configured service must have the same settings in its dashboard.
+
+Set `DATABASE_URL` to the complete Neon connection string, including `?sslmode=require&channel_binding=require`. Also set `NODE_ENV=production`, `HOST=0.0.0.0`, `APP_URL=https://pmcfe-three.vercel.app`, and `SEED_DEMO=false`. Render supplies `PORT`. Never set database credentials in Vercel or `VITE_*` variables.
+
+The standalone **PMCFE** repository contains `vercel.json`. Its first rewrite forwards `/api/*` to Render; the fallback serves React routes through `index.html`. Deploy that file with the frontend. API requests, protected file downloads, and session cookies then use the frontend's origin. Production cookies remain HttpOnly, Secure, and SameSite=Lax. No visual changes or API base-URL environment variable are needed.
+
+### Data transfer
+
+On 31 October 2026, the four existing Prisma migrations were deployed to the empty Neon database and **881 rows across 38 application tables** were copied from the original local PostgreSQL database. These include **382 business records**, 3 users, 2 projects, 25 templates, the Tender Form configuration, payments, attachments, comments, invitations, audit history and sessions. IDs, timestamps, exact decimals and file bytes were preserved. Every application's table count and SHA-256 hash of its complete rows matched before committing the transfer. Existing sample/demo data was copied as-is; the transfer did not turn it into verified production data.
+
+The private source snapshot and verification report are under `.local/backups/database-transfer-2026-10-31T07-15-10.110Z/`. This directory must stay out of Git and deployment artifacts. Migration history in Neon was created by Prisma itself.
+
+The reusable `scripts/migrations/transfer-database.mjs` accepts `SOURCE_DATABASE_URL` and destination `DATABASE_URL`. If `SOURCE_DATABASE_URL` is absent, `LOCAL_DB_PASSWORD` selects the original local database on port 55432. Run without arguments to inspect and back up; pass `--apply` to transfer. It requires matching migrated schemas, reads a consistent source snapshot, checks foreign-key order, copies within one destination transaction, and verifies every row before commit. A destination with different existing data is backed up and rejected without changes. An exact repeat verifies the existing data without duplicating it. Stop source writers before a final cutover.
+
+The backend repository's original commit tracked `.local` database files and generated Prisma output. They are now removed from the Git index while retained locally, and the standalone `.gitignore` has been corrected. Existing Git history still contains the earlier files; removing historical copies requires a separately coordinated history cleanup.

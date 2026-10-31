@@ -10,8 +10,9 @@ if (process.env.SERVE_FRONTEND === "true") {
   );
 }
 const port = Number(process.env.PORT || 4000);
-const server = app.listen(port, process.env.HOST || "127.0.0.1", () =>
-  console.log("PMC API ready at http://127.0.0.1:" + port),
+const host = process.env.HOST || (process.env.NODE_ENV === "production" ? "0.0.0.0" : "127.0.0.1");
+const server = app.listen(port, host, () =>
+  console.log(`PMC API listening on ${host}:${port}`),
 );
 async function shutdown() {
   server.close();

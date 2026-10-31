@@ -3,8 +3,8 @@ dist/
 .env
 .env.*
 !.env.example
-backend/.local/
-backend/src/generated/
+.local/
+src/generated/
 work/
 *.log
 
