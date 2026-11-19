@@ -25,7 +25,7 @@ function localResetCode() {
   return otp;
 }
 export async function beginReset(req: Request, res: Response) {
-  localResetCode();
+  // localResetCode();
   const email = z.email().toLowerCase().parse(req.body?.email);
   const user = await db.atelierUser.findFirst({
     where: { email, active: true },
