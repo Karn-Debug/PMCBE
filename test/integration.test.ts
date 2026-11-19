@@ -80,13 +80,24 @@ after(async () => {
   }
   await db.$disconnect();
 });
-test("unauthenticated requests and untrusted origins are blocked", async () => {
-  await request(app).get("/api/projects").expect(401);
-  await owner
-    .post("/api/projects")
-    .set("Origin", "https://untrusted.invalid")
+test("API accepts every origin and still requires a session for protected routes", async () => {
+  await request(app)
+    .options("/api/pmc/auth/login")
+    .set("Origin", "http://localhost:3000")
+    .set("Access-Control-Request-Method", "POST")
+    .expect("Access-Control-Allow-Origin", "*")
+    .expect(204);
+  await request(app)
+    .post("/api/pmc/auth/login")
+    .set("Origin", "http://localhost:3000")
     .send({})
-    .expect(403);
+    .expect(400);
+  await request(app)
+    .post("/api/projects")
+    .set("Origin", "https://another-frontend.example")
+    .expect("Access-Control-Allow-Origin", "*")
+    .expect("Cache-Control", "no-store")
+    .expect(401);
 });
 test("passwords and session tokens are never included in team responses", async () => {
   const res = await owner.get("/api/team").expect(200);

@@ -1,14 +1,5 @@
 import "dotenv/config";
 export const origin = new URL(process.env.APP_URL || "http://localhost:5173").origin;
-export const origins = [
-  origin,
-  ...(process.env.NODE_ENV === "production" ? [] : ["http://127.0.0.1:5173", "http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://127.0.0.1:3001"]),
-  ...(process.env.ALLOWED_ORIGINS || "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .map((value) => new URL(value).origin),
-];
 // Render terminates TLS at its reverse proxy. Trust only the nearest hop;
 // never trust arbitrary client-supplied forwarding chains.
 export const trustProxy = process.env.RENDER === "true" ? 1 : false;

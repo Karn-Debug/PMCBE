@@ -88,7 +88,7 @@ fs.writeFileSync(
     "DATABASE_URL=" + url.href,
     "NODE_ENV=development",
     "HOST=127.0.0.1",
-    "PORT=4001",
+    "PORT=" + (prior.PORT || "4001"),
     "PMC_LOCAL_RESET_OTP=" +
       (process.env.PMC_LOCAL_RESET_OTP ||
         process.env.ATELIER_LOCAL_RESET_OTP ||
@@ -96,6 +96,8 @@ fs.writeFileSync(
         prior.ATELIER_LOCAL_RESET_OTP ||
         String(randomInt(100000, 1000000))),
     "APP_URL=http://localhost:3000",
+    "OPENAI_API_KEY=" + (prior.OPENAI_API_KEY || ""),
+    "OPENAI_PDF_MODEL=" + (prior.OPENAI_PDF_MODEL || "gpt-4.1"),
   ].join("\n") + "\n",
   { mode: 0o600 },
 );

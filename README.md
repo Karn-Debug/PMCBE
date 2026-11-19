@@ -2,6 +2,12 @@
 
 The backend keeps the existing frontend API contract while storing each business entity in its own PostgreSQL table. The frontend design and source files were not changed for this refactor.
 
+## Feasibility report imports
+
+Set `OPENAI_API_KEY` in the backend’s `.env` or `.env.pmc.local` for local portal development, then restart the local API. A populated local portal key takes precedence. A hosted API reads the same variable from its server environment. `OPENAI_PDF_MODEL` defaults to `gpt-4.1` and can be set to another model supporting PDF inputs and structured outputs.
+
+The society’s **Upload Excel or PDF** action accepts files up to 4 MB. OpenAI transcribes PDFs into worksheets. For both file types, the backend then sends an outline of visible worksheet cells to OpenAI for section, column and row formatting. It applies that layout to the complete worksheet values and saves the versioned report in `statement.report` alongside the workbook snapshot. Unmapped cells appear under additional entries. **Download latest Excel** uses the saved workbook. Opening a revision reads its stored data without another OpenAI call.
+
 ## Folder structure
 
 ```text
@@ -149,7 +155,7 @@ npm run build
 npm test
 ```
 
-`APP_URL` remains the main frontend origin. Optional `ALLOWED_ORIGINS` is a comma-separated list of additional trusted browser origins, replacing a hardcoded origin exception. No credentials are stored in source.
+`APP_URL` sets the frontend address used in generated links. The API returns wildcard CORS headers. For cookie-based sessions, the frontend proxies same-origin `/api` requests to the backend.
 
 ## Adding or changing a field
 

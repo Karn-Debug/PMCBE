@@ -8,6 +8,12 @@ import {
   societyRef,
 } from "../services/atelier-society.service.js";
 import { writeWorkbook } from "../services/atelier-workbook.service.js";
+import { importFeasibilityPdf } from "../services/feasibility-pdf.service.js";
+import {
+  buildFeasibilityReport,
+  type FeasibilityReport,
+} from "../services/feasibility-report.service.js";
+import { prepareReadingView } from "../services/feasibility-reading-view.js";
 
 import {
   importSpreadsheet,
@@ -48,15 +54,40 @@ export async function get(req: Request, res: Response) {
     select: { ...metadata, statement: true },
   });
   if (!revision) throw new HttpError(404, "Revision not found.");
+  const stored = revision.statement as unknown as StoredStatement & {
+    report?: FeasibilityReport;
+  };
+  const workbook = stored.format === 2 ? stored : stored.workbook;
+  if (workbook && stored.report?.version === 1 && !stored.report.readingView) {
+    res.json({
+      ...revision,
+      statement: {
+        ...stored,
+        report: prepareReadingView(workbook, stored.report),
+      },
+    });
+    return;
+  }
   res.json(revision);
 }
 export async function upload(req: Request, res: Response) {
   const row = await society(req, res);
-  if (!req.file) throw new HttpError(400, "Choose an Excel workbook.");
-  const { statement, meta } = await importSpreadsheet(
-    req.file.buffer,
-    req.file.originalname,
-  );
+  if (!req.file)
+    throw new HttpError(400, "Choose an Excel workbook or PDF report.");
+  const { buffer, originalname } = req.file;
+  if (!/\.(?:xls[xmb]?|pdf)$/i.test(originalname))
+    throw new HttpError(400, "Choose an Excel workbook or PDF report.");
+  const { statement: source, meta } = /\.pdf$/i.test(originalname)
+    ? await importFeasibilityPdf(buffer, originalname)
+    : await importSpreadsheet(buffer, originalname);
+  const parsed = source as unknown as StoredStatement;
+  const workbook = parsed.format === 2 ? parsed : parsed.workbook;
+  if (!workbook)
+    throw new HttpError(422, "The source worksheets could not be read.");
+  // Existing Excel imports can still use the portal's worksheet view without an AI key.
+  const statement = process.env.OPENAI_API_KEY?.trim()
+    ? { ...source, report: await buildFeasibilityReport(workbook) }
+    : source;
   const revision = await db.$transaction(async (tx) => {
     const { revisionCount } = await tx.atelierSociety.update({
       where: { number: row.number },
@@ -68,7 +99,7 @@ export async function upload(req: Request, res: Response) {
         societyNumber: row.number,
         uploadedById: res.locals.atelier.id,
         version: revisionCount,
-        filename: req.file!.originalname.slice(0, 255),
+        filename: originalname.slice(0, 255),
         consultant: meta.consultant || res.locals.atelier.name,
         preparedDate: new Date(meta.preparedDate),
         status: statuses[meta.status],

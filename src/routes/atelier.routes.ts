@@ -1,5 +1,6 @@
 import { Router } from "express";
 import multer from "multer";
+import { HttpError } from "../utils/http-error.js";
 import { authLimit } from "../middleware/rate-limit.middleware.js";
 import * as auth from "../controllers/atelier-auth.controller.js";
 import * as societies from "../controllers/atelier-society.controller.js";
@@ -9,7 +10,7 @@ import {
   finishReset,
 } from "../controllers/atelier-reset.controller.js";
 const router = Router();
-const excel = multer({
+const reportFile = multer({
   storage: multer.memoryStorage(),
   limits: { fileSize: 4 * 1024 * 1024, fields: 0, files: 1 },
 }).single("file");
@@ -26,7 +27,21 @@ router.get("/societies/:id", societies.get);
 const path = "/societies/:id/feasibility";
 router.get(path, reports.list);
 router.get(path + "/workbook", reports.download);
-router.post(path, excel, reports.upload);
+router.post(
+  path,
+  (req, res, next) =>
+    reportFile(req, res, (error) =>
+      next(
+        error instanceof multer.MulterError && error.code === "LIMIT_FILE_SIZE"
+          ? new HttpError(
+              413,
+              "Choose an Excel workbook or PDF of 4 MB or less.",
+            )
+          : error,
+      ),
+    ),
+  reports.upload,
+);
 router.get(path + "/:revision", reports.get);
 router.patch(path + "/:revision/remarks", reports.remarks);
 router.use((_req, res) =>

@@ -1,8 +1,20 @@
 import "dotenv/config";
+import dotenv from "dotenv";
+import { fileURLToPath } from "node:url";
 import express from "express";
 import path from "node:path";
 import { app } from "./app.js";
 import { db } from "./config/database.js";
+// The local portal env selects the local database and may leave PDF settings blank.
+// In that case use only the PDF credentials from the backend's normal env file.
+if (process.env.NODE_ENV === "development" && !process.env.OPENAI_API_KEY?.trim()) {
+  const base = dotenv.config({
+    path: fileURLToPath(new URL("../.env", import.meta.url)),
+    processEnv: {},
+    quiet: true,
+  }).parsed;
+  if (base?.OPENAI_API_KEY?.trim()) process.env.OPENAI_API_KEY = base.OPENAI_API_KEY.trim();
+}
 if (process.env.SERVE_FRONTEND === "true") {
   app.use(express.static(path.resolve("../frontend/dist")));
   app.get("/{*path}", (_req, res) =>
