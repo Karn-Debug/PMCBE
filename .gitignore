@@ -9,3 +9,5 @@ work/
 *.log
 
 *.tsbuildinfo
+
+.env.pmc.local

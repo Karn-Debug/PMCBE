@@ -1,0 +1,510 @@
+[
+  {
+    "id": "SOC-0001",
+    "societyReference": "SOC-0001",
+    "societyName": "Sunrise Co-operative Housing Society Ltd.",
+    "locality": "Andheri West",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Feasibility Report",
+    "pmcManager": "Ananya Mehta",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "pmc"
+      },
+      {
+        "userId": "ananya-mehta",
+        "role": "pmc"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "liaisoner"
+      },
+      {
+        "userId": "mira-shah",
+        "role": "designer"
+      }
+    ],
+    "nextAction": "Review revised area statement",
+    "lastUpdated": "2026-10-29",
+    "buildings": 3,
+    "wings": 4,
+    "residentialPremises": 84,
+    "commercialPremises": 4,
+    "plotArea": "1840",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2001",
+    "societyAddress": "14, Sunrise Lane, Andheri West, Mumbai, Maharashtra 400053",
+    "primaryContactName": "Kavya Rao",
+    "contactNumber": "",
+    "emailAddress": "committee.sunrise@example.com",
+    "ctsNumber": "380/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0001",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0002",
+    "societyReference": "SOC-0002",
+    "societyName": "Green Park Co-operative Housing Society Ltd.",
+    "locality": "Borivali West",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Construction Monitoring",
+    "pmcManager": "Rohan Desai",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "pmc"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "pmc"
+      }
+    ],
+    "nextAction": "Review slab inspection report",
+    "lastUpdated": "2026-10-28",
+    "buildings": 4,
+    "wings": 5,
+    "residentialPremises": 128,
+    "commercialPremises": 0,
+    "plotArea": "2050",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2002",
+    "societyAddress": "15, Green Park Lane, Borivali West, Mumbai, Maharashtra 400054",
+    "primaryContactName": "Vivek Kulkarni",
+    "contactNumber": "",
+    "emailAddress": "committee.greenpark@example.com",
+    "ctsNumber": "392/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0002",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0003",
+    "societyReference": "SOC-0003",
+    "societyName": "Sea View Co-operative Housing Society Ltd.",
+    "locality": "Dadar West",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Developer Tendering",
+    "pmcManager": "Mira Shah",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "pmc"
+      },
+      {
+        "userId": "mira-shah",
+        "role": "pmc"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "liaisoner"
+      }
+    ],
+    "nextAction": "Finalise tender eligibility criteria",
+    "lastUpdated": "2026-10-27",
+    "buildings": 2,
+    "wings": 3,
+    "residentialPremises": 56,
+    "commercialPremises": 0,
+    "plotArea": "2260",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2003",
+    "societyAddress": "16, Sea View Lane, Dadar West, Mumbai, Maharashtra 400055",
+    "primaryContactName": "Neha Patil",
+    "contactNumber": "",
+    "emailAddress": "committee.seaview@example.com",
+    "ctsNumber": "404/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0003",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0004",
+    "societyReference": "SOC-0004",
+    "societyName": "Shree Heights Co-operative Housing Society Ltd.",
+    "locality": "Mulund West",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Document Collection & Surveys",
+    "pmcManager": "Arjun Joshi",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "pmc"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "pmc"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "designer"
+      }
+    ],
+    "nextAction": "Verify property card documents",
+    "lastUpdated": "2026-10-26",
+    "buildings": 2,
+    "wings": 3,
+    "residentialPremises": 72,
+    "commercialPremises": 4,
+    "plotArea": "2470",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2004",
+    "societyAddress": "17, Shree Heights Lane, Mulund West, Mumbai, Maharashtra 400056",
+    "primaryContactName": "Kavya Rao",
+    "contactNumber": "",
+    "emailAddress": "committee.shreeheights@example.com",
+    "ctsNumber": "416/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0004",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0005",
+    "societyReference": "SOC-0005",
+    "societyName": "Silver Oak Co-operative Housing Society Ltd.",
+    "locality": "Ghatkopar East",
+    "engagementStatus": "Prospective",
+    "projectStatus": "Inactive",
+    "redevelopmentStage": "Society Enquiry",
+    "pmcManager": "Ananya Mehta",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "pmc"
+      },
+      {
+        "userId": "ananya-mehta",
+        "role": "pmc"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "liaisoner"
+      }
+    ],
+    "nextAction": "Schedule introductory committee meeting",
+    "lastUpdated": "2026-10-25",
+    "buildings": 1,
+    "wings": 2,
+    "residentialPremises": 32,
+    "commercialPremises": 0,
+    "plotArea": "2680",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2005",
+    "societyAddress": "18, Silver Oak Lane, Ghatkopar East, Mumbai, Maharashtra 400057",
+    "primaryContactName": "Vivek Kulkarni",
+    "contactNumber": "",
+    "emailAddress": "committee.silveroak@example.com",
+    "ctsNumber": "428/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "",
+    "engagementReference": "",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0006",
+    "societyReference": "SOC-0006",
+    "societyName": "Palm Grove Co-operative Housing Society Ltd.",
+    "locality": "Bandra West",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Statutory Approvals",
+    "pmcManager": "Mira Shah",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "pmc"
+      },
+      {
+        "userId": "mira-shah",
+        "role": "pmc"
+      }
+    ],
+    "nextAction": "Follow up on application clarification",
+    "lastUpdated": "2026-10-29",
+    "buildings": 3,
+    "wings": 4,
+    "residentialPremises": 96,
+    "commercialPremises": 0,
+    "plotArea": "2890",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2006",
+    "societyAddress": "19, Palm Grove Lane, Bandra West, Mumbai, Maharashtra 400058",
+    "primaryContactName": "Neha Patil",
+    "contactNumber": "",
+    "emailAddress": "committee.palmgrove@example.com",
+    "ctsNumber": "440/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0006",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0007",
+    "societyReference": "SOC-0007",
+    "societyName": "Sai Sadan Co-operative Housing Society Ltd.",
+    "locality": "Vile Parle East",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "PMC Appointment",
+    "pmcManager": "Rohan Desai",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "liaisoner"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "pmc"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "liaisoner"
+      },
+      {
+        "userId": "ananya-mehta",
+        "role": "designer"
+      }
+    ],
+    "nextAction": "Review PMC appointment documents",
+    "lastUpdated": "2026-10-28",
+    "buildings": 2,
+    "wings": 3,
+    "residentialPremises": 48,
+    "commercialPremises": 4,
+    "plotArea": "3100",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2007",
+    "societyAddress": "20, Sai Sadan Lane, Vile Parle East, Mumbai, Maharashtra 400059",
+    "primaryContactName": "Kavya Rao",
+    "contactNumber": "",
+    "emailAddress": "committee.saisadan@example.com",
+    "ctsNumber": "452/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0007",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0008",
+    "societyReference": "SOC-0008",
+    "societyName": "Laxmi Niwas Co-operative Housing Society Ltd.",
+    "locality": "Chembur",
+    "engagementStatus": "On hold",
+    "projectStatus": "Inactive",
+    "redevelopmentStage": "Society Meetings & Decisions",
+    "pmcManager": "Arjun Joshi",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "liaisoner"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "pmc"
+      }
+    ],
+    "nextAction": "Await managing committee feedback",
+    "lastUpdated": "2026-10-27",
+    "buildings": 2,
+    "wings": 3,
+    "residentialPremises": 64,
+    "commercialPremises": 0,
+    "plotArea": "3310",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2008",
+    "societyAddress": "21, Laxmi Niwas Lane, Chembur, Mumbai, Maharashtra 400060",
+    "primaryContactName": "Vivek Kulkarni",
+    "contactNumber": "",
+    "emailAddress": "committee.laxminiwas@example.com",
+    "ctsNumber": "464/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0008",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0009",
+    "societyReference": "SOC-0009",
+    "societyName": "Cedar Court Co-operative Housing Society Ltd.",
+    "locality": "Powai",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Developer Selection",
+    "pmcManager": "Ananya Mehta",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "liaisoner"
+      },
+      {
+        "userId": "ananya-mehta",
+        "role": "pmc"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "liaisoner"
+      }
+    ],
+    "nextAction": "Compare shortlisted developer proposals",
+    "lastUpdated": "2026-10-26",
+    "buildings": 3,
+    "wings": 4,
+    "residentialPremises": 108,
+    "commercialPremises": 0,
+    "plotArea": "3520",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2009",
+    "societyAddress": "22, Cedar Court Lane, Powai, Mumbai, Maharashtra 400061",
+    "primaryContactName": "Neha Patil",
+    "contactNumber": "",
+    "emailAddress": "committee.cedarcourt@example.com",
+    "ctsNumber": "476/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0009",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0010",
+    "societyReference": "SOC-0010",
+    "societyName": "Ocean Crest Co-operative Housing Society Ltd.",
+    "locality": "Worli",
+    "engagementStatus": "Active",
+    "projectStatus": "Active",
+    "redevelopmentStage": "Agreements",
+    "pmcManager": "Mira Shah",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "liaisoner"
+      },
+      {
+        "userId": "mira-shah",
+        "role": "pmc"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "designer"
+      }
+    ],
+    "nextAction": "Review draft Development Agreement",
+    "lastUpdated": "2026-10-25",
+    "buildings": 2,
+    "wings": 3,
+    "residentialPremises": 44,
+    "commercialPremises": 4,
+    "plotArea": "3730",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2010",
+    "societyAddress": "23, Ocean Crest Lane, Worli, Mumbai, Maharashtra 400062",
+    "primaryContactName": "Kavya Rao",
+    "contactNumber": "",
+    "emailAddress": "committee.oceancrest@example.com",
+    "ctsNumber": "488/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0010",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0011",
+    "societyReference": "SOC-0011",
+    "societyName": "Ashoka Garden Co-operative Housing Society Ltd.",
+    "locality": "Kandivali East",
+    "engagementStatus": "Completed",
+    "projectStatus": "Inactive",
+    "redevelopmentStage": "OC & Handover",
+    "pmcManager": "Rohan Desai",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "designer"
+      },
+      {
+        "userId": "rohan-desai",
+        "role": "pmc"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "liaisoner"
+      }
+    ],
+    "nextAction": "Close defect liability observations",
+    "lastUpdated": "2026-10-29",
+    "buildings": 4,
+    "wings": 5,
+    "residentialPremises": 144,
+    "commercialPremises": 0,
+    "plotArea": "3940",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2011",
+    "societyAddress": "24, Ashoka Garden Lane, Kandivali East, Mumbai, Maharashtra 400063",
+    "primaryContactName": "Vivek Kulkarni",
+    "contactNumber": "",
+    "emailAddress": "committee.ashokagarden@example.com",
+    "ctsNumber": "500/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "2026-03-18",
+    "engagementReference": "ENG-0011",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  },
+  {
+    "id": "SOC-0012",
+    "societyReference": "SOC-0012",
+    "societyName": "Maple Residency Co-operative Housing Society Ltd.",
+    "locality": "Malad West",
+    "engagementStatus": "Prospective",
+    "projectStatus": "Inactive",
+    "redevelopmentStage": "Society Enquiry",
+    "pmcManager": "Arjun Joshi",
+    "projectAssignments": [
+      {
+        "userId": "pmc-admin",
+        "role": "designer"
+      },
+      {
+        "userId": "arjun-joshi",
+        "role": "pmc"
+      }
+    ],
+    "nextAction": "Collect initial society information",
+    "lastUpdated": "2026-10-28",
+    "buildings": 2,
+    "wings": 3,
+    "residentialPremises": 60,
+    "commercialPremises": 0,
+    "plotArea": "4150",
+    "societyRegistrationNumber": "MUM/HSG/DEMO/2012",
+    "societyAddress": "25, Maple Residency Lane, Malad West, Mumbai, Maharashtra 400064",
+    "primaryContactName": "Neha Patil",
+    "contactNumber": "",
+    "emailAddress": "committee.mapleresidency@example.com",
+    "ctsNumber": "512/A",
+    "planningAuthority": "MCGM / BMC",
+    "redevelopmentType": "Society self-initiated redevelopment",
+    "enquiryDate": "2026-02-10",
+    "appointmentDate": "",
+    "engagementReference": "",
+    "internalRemarks": "Fictional society record prepared for the Stallion PMC demonstration."
+  }
+]

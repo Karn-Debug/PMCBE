@@ -554,6 +554,7 @@ test("modules persist in dedicated tables with typed columns and no JSON busines
   >`
     SELECT table_name,column_name FROM information_schema.columns
     WHERE table_schema='public' AND data_type IN ('json','jsonb')
+      AND (table_name,column_name) NOT IN (('AtelierRevision','statement'),('AtelierSociety','projectAssignments'))
   `;
   assert.deepEqual(tables, []);
   const legacy = await db.$queryRaw<

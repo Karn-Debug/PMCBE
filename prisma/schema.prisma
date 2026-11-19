@@ -988,3 +988,137 @@ model TenderSetupRow {
   @@id([setupId, id])
   @@unique([setupId, sectionId, position])
 }
+
+enum AtelierStage {
+  SOCIETY_ENQUIRY @map("Society Enquiry")
+  PMC_APPOINTMENT @map("PMC Appointment")
+  DOCUMENT_COLLECTION_AND_SURVEYS @map("Document Collection & Surveys")
+  FEASIBILITY_REPORT @map("Feasibility Report")
+  SOCIETY_MEETINGS_AND_DECISIONS @map("Society Meetings & Decisions")
+  DEVELOPER_TENDERING @map("Developer Tendering")
+  DEVELOPER_SELECTION @map("Developer Selection")
+  AGREEMENTS @map("Agreements")
+  STATUTORY_APPROVALS @map("Statutory Approvals")
+  CONSTRUCTION_MONITORING @map("Construction Monitoring")
+  OC_AND_HANDOVER @map("OC & Handover")
+}
+enum AtelierEngagement {
+  ACTIVE @map("Active")
+  PROSPECTIVE @map("Prospective")
+  ON_HOLD @map("On hold")
+  COMPLETED @map("Completed")
+}
+enum AtelierProjectStatus {
+  Active
+  Inactive
+}
+enum AtelierReview {
+  PENDING_REVIEW
+  REVIEWED
+  SUPERSEDED
+}
+model AtelierWorkspace {
+  id String @id
+  users AtelierUser[]
+  societies AtelierSociety[]
+}
+enum AtelierAccountRole {
+  pmc
+  liaisoner
+  designer
+}
+model AtelierReset {
+  tokenHash String @id
+  userId String @unique
+  user AtelierUser @relation(fields:[userId],references:[id],onDelete:Cascade)
+  expiresAt DateTime
+  attempts Int @default(0)
+}
+model AtelierUser {
+  role AtelierAccountRole @default(pmc)
+  reset AtelierReset?
+  id String @id @default(cuid())
+  workspaceId String
+  workspace AtelierWorkspace @relation(fields: [workspaceId], references: [id])
+  email String @unique
+  name String
+  passwordHash String
+  active Boolean @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  sessions AtelierSession[]
+  revisions AtelierRevision[]
+}
+model AtelierSession {
+  id String @id
+  userId String
+  user AtelierUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  @@index([userId])
+  @@index([expiresAt])
+}
+model AtelierSociety {
+  number Int @id @default(autoincrement())
+  workspaceId String
+  workspace AtelierWorkspace @relation(fields: [workspaceId], references: [id])
+  societyName String
+  city String @default("Mumbai")
+  engagementStatus AtelierEngagement @default(PROSPECTIVE)
+  redevelopmentStage AtelierStage @default(SOCIETY_ENQUIRY)
+  projectStatus AtelierProjectStatus @default(Inactive)
+  projectAssignments Json @default("[]")
+  registrationDate DateTime? @db.Date
+  enquiryDate DateTime? @db.Date
+  appointmentDate DateTime? @db.Date
+  numberOfUnits Int?
+  csNumber String @default("")
+  googleMapsUrl String @default("")
+  occupiedSocietyArea String @default("")
+  societyType String @default("")
+  landTenure String @default("")
+  committeeSize String @default("")
+  secretaryName String @default("")
+  treasurerName String @default("")
+  architectName String @default("")
+  locality String @default("")
+  pmcManager String @default("")
+  nextAction String @default("")
+  plotArea String @default("")
+  societyRegistrationNumber String @default("")
+  societyAddress String @default("")
+  primaryContactName String @default("")
+  contactNumber String @default("")
+  emailAddress String @default("")
+  ctsNumber String @default("")
+  planningAuthority String @default("")
+  redevelopmentType String @default("")
+  engagementReference String @default("")
+  internalRemarks String @default("")
+  buildings Int @default(0)
+  wings Int @default(0)
+  residentialPremises Int @default(0)
+  commercialPremises Int @default(0)
+  revisionCount Int @default(0)
+  revisions AtelierRevision[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([workspaceId,number])
+}
+model AtelierRevision {
+  id String @id @default(cuid())
+  societyNumber Int
+  society AtelierSociety @relation(fields: [societyNumber], references: [number])
+  uploadedById String
+  uploadedBy AtelierUser @relation(fields: [uploadedById], references: [id])
+  version Int
+  filename String
+  statement Json
+  remarks String @default("")
+  consultant String
+  preparedDate DateTime @db.Date
+  status AtelierReview @default(PENDING_REVIEW)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@unique([societyNumber,version])
+}

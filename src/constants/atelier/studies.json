@@ -1,0 +1,1827 @@
+[
+  {
+    "id": "mahim-fp37",
+    "label": "F.P. 37 · TPS IV, Mahim",
+    "fields": [
+      {
+        "id": "plot-area",
+        "section": "F.P. NO. 37",
+        "label": "TOTAL PLOT AREA",
+        "unit": "m²",
+        "basis": "A · Client / survey input",
+        "text": false
+      },
+      {
+        "id": "road-setback",
+        "section": "F.P. NO. 37",
+        "label": "(-) DP ROAD SETBACK",
+        "unit": "m²",
+        "basis": "B · DP remarks input",
+        "text": false
+      },
+      {
+        "id": "reservation",
+        "section": "F.P. NO. 37",
+        "label": "(-) DP RESERVATIONS",
+        "unit": "m²",
+        "basis": "C · DP remarks input",
+        "text": false
+      },
+      {
+        "id": "net-plot",
+        "section": "F.P. NO. 37",
+        "label": "NET PLOT AREA",
+        "unit": "m²",
+        "basis": "D = A − B − C",
+        "text": false
+      },
+      {
+        "id": "zonal",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "ZONAL FSI",
+        "unit": "m²",
+        "basis": "E = D × 1",
+        "text": false
+      },
+      {
+        "id": "premium",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "ADDITIONAL GOVT. PREMIUM FSI",
+        "unit": "m²",
+        "basis": "F = D × 0.5",
+        "text": false
+      },
+      {
+        "id": "tdr",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "ADMISSIBLE TDR FSI",
+        "unit": "m²",
+        "basis": "G = D × 0.7",
+        "text": false
+      },
+      {
+        "id": "fsi-area",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "PERMISSIBLE FSI BUILT-UP AREA",
+        "unit": "m²",
+        "basis": "H = E + F + G",
+        "text": false
+      },
+      {
+        "id": "existing-carpet",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "EXISTING REHAB C.A.",
+        "unit": "m²",
+        "basis": "I · Existing area input",
+        "text": false
+      },
+      {
+        "id": "rehab-bua",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "REHAB B.U.A.",
+        "unit": "m²",
+        "basis": "J = I × 1.2",
+        "text": false
+      },
+      {
+        "id": "rehab-fungible",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "REHAB FUNGIBLE",
+        "unit": "m²",
+        "basis": "K = J × 35%",
+        "text": false
+      },
+      {
+        "id": "rehab-total",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "PERMISSABLE REHAB B.U.A.",
+        "unit": "m²",
+        "basis": "L = J + K",
+        "text": false
+      },
+      {
+        "id": "rehab-rera",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "RERA AREA FOR REHAB TENANTS",
+        "unit": "ft²",
+        "basis": "(L ÷ 1.2) × 1.08 × 10.764",
+        "text": false
+      },
+      {
+        "id": "base-sale-bua",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "SALE B.U.A.",
+        "unit": "m²",
+        "basis": "M = H − J",
+        "text": false
+      },
+      {
+        "id": "base-sale-fungible",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "SALE FUNGIBLE",
+        "unit": "m²",
+        "basis": "N = M × 35%",
+        "text": false
+      },
+      {
+        "id": "base-sale-total",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "PERMISSABLE SALE B.U.A.",
+        "unit": "m²",
+        "basis": "O = M + N",
+        "text": false
+      },
+      {
+        "id": "base-total-bua",
+        "section": "33 (7) WORKING (NET PLOT AREA)",
+        "label": "TOTAL B.U.A. INCLUDING FUNGIBLE",
+        "unit": "m²",
+        "basis": "P = L + O",
+        "text": false
+      },
+      {
+        "id": "setback-fsi",
+        "section": "33 (7) WORKING (SETBACK INCENTIVE)",
+        "label": "FSI ON SETBACK AREA",
+        "unit": "m²",
+        "basis": "Q = B × 2",
+        "text": false
+      },
+      {
+        "id": "setback-fungible",
+        "section": "33 (7) WORKING (SETBACK INCENTIVE)",
+        "label": "FUNGIBLE ON SETBACK AREA",
+        "unit": "m²",
+        "basis": "R = Q × 35%",
+        "text": false
+      },
+      {
+        "id": "setback-sale",
+        "section": "33 (7) WORKING (SETBACK INCENTIVE)",
+        "label": "Total Sale Area From Setback",
+        "unit": "m²",
+        "basis": "S = Q + R",
+        "text": false
+      },
+      {
+        "id": "balance-fsi",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "BALANCE FSI",
+        "unit": "FSI",
+        "basis": "4 − (1 + 0.5 + 0.7)",
+        "text": false
+      },
+      {
+        "id": "balance-area",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "BALANCE PERMISSIBLE AREA",
+        "unit": "m²",
+        "basis": "U = D × balance FSI",
+        "text": false
+      },
+      {
+        "id": "permissible-tenants",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "NO. OF PERMISSIBLE TENANTS",
+        "unit": "Nos.",
+        "basis": "U × 67% ÷ 33.456",
+        "text": false
+      },
+      {
+        "id": "proposed-tenants",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "NO. OF TENANTS PROPOSED",
+        "unit": "Nos.",
+        "basis": "W · Project input",
+        "text": false
+      },
+      {
+        "id": "pap-bua",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "PERMISSIBLE BUA FOR PAP",
+        "unit": "m²",
+        "basis": "X = W × 33.456",
+        "text": false
+      },
+      {
+        "id": "pap-fungible",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "FUNGIBLE ON PAP BUA",
+        "unit": "m²",
+        "basis": "Y = X × 35%",
+        "text": false
+      },
+      {
+        "id": "pap-total",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "TOTAL PERMISSIBLE AREA FOR PAP",
+        "unit": "m²",
+        "basis": "Z = X + Y",
+        "text": false
+      },
+      {
+        "id": "incentive-sale",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "INCENTIVE SALE AREA",
+        "unit": "m²",
+        "basis": "AA = X × 50%",
+        "text": false
+      },
+      {
+        "id": "incentive-fungible",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "FUNGIBLE ON INCENTIVE SALE AREA",
+        "unit": "m²",
+        "basis": "AB = AA × 35%",
+        "text": false
+      },
+      {
+        "id": "incentive-sale-total",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "TOTAL INCENTIVE SALE AREA",
+        "unit": "m²",
+        "basis": "AC = AA + AB",
+        "text": false
+      },
+      {
+        "id": "pap-incentive-total",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "TOTAL PERMISSIBLE INCENTIVE SALE AREA",
+        "unit": "m²",
+        "basis": "AD = Z + AC",
+        "text": false
+      },
+      {
+        "id": "total-sale-bua",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "SOURCE TOTAL SALE B.U.A.",
+        "unit": "m²",
+        "basis": "AE = O + S + AD",
+        "text": false
+      },
+      {
+        "id": "sale-rera-m",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "PERMISSABLE SALE RERA C.A.",
+        "unit": "m²",
+        "basis": "(AE ÷ 1.2) × 1.08",
+        "text": false
+      },
+      {
+        "id": "sale-rera-ft",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "PERMISSABLE SALE RERA C.A.",
+        "unit": "ft²",
+        "basis": "(AE ÷ 1.2) × 1.08",
+        "text": false
+      },
+      {
+        "id": "permissible-bua",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "TOTAL PERMISSABLE B.U.A.",
+        "unit": "m²",
+        "basis": "AH = P + S + AD",
+        "text": false
+      },
+      {
+        "id": "construction-area",
+        "section": "33(12)(B) WORKING - MAX 4.0 FSI",
+        "label": "TOTAL CONSTRUCTION AREA (80% + OF BUA AS PER INDUSTRY STANDARD)",
+        "unit": "m²",
+        "basis": "AI = AH × 1.8",
+        "text": false
+      },
+      {
+        "id": "construction-cost",
+        "section": "COST SHEET",
+        "label": "COST OF CONSTRUCTION",
+        "unit": "₹",
+        "basis": "AI × 10.764 × 3,500",
+        "text": false
+      },
+      {
+        "id": "permissions",
+        "section": "COST SHEET",
+        "label": "PERMISSIONS",
+        "unit": "₹",
+        "basis": "Project allowance",
+        "text": false
+      },
+      {
+        "id": "other-charges",
+        "section": "COST SHEET",
+        "label": "OTHER CHARGES",
+        "unit": "₹",
+        "basis": "Project allowance",
+        "text": false
+      },
+      {
+        "id": "consultancy",
+        "section": "COST SHEET",
+        "label": "CONSULTANCY (ARCH., LAWYER, ETC)",
+        "unit": "₹",
+        "basis": "Project allowance",
+        "text": false
+      },
+      {
+        "id": "miscellaneous",
+        "section": "COST SHEET",
+        "label": "MISCELLANOUS",
+        "unit": "₹",
+        "basis": "Project allowance",
+        "text": false
+      },
+      {
+        "id": "rent",
+        "section": "COST SHEET",
+        "label": "RENT",
+        "unit": "₹",
+        "basis": "I × 10.764 × 105 × 42",
+        "text": false
+      },
+      {
+        "id": "corpus",
+        "section": "COST SHEET",
+        "label": "CORPUS ON EXISTING AREA OF TENANTS",
+        "unit": "₹",
+        "basis": "I × 10.764 × 2,000",
+        "text": false
+      },
+      {
+        "id": "pap-buying",
+        "section": "COST SHEET",
+        "label": "PAP TENANT BUYING COST",
+        "unit": "₹",
+        "basis": "W × 40,00,000",
+        "text": false
+      },
+      {
+        "id": "cost-subtotal",
+        "section": "COST SHEET",
+        "label": "TOTAL COST",
+        "unit": "₹",
+        "basis": "Sum of cost items",
+        "text": false
+      },
+      {
+        "id": "interest",
+        "section": "COST SHEET",
+        "label": "INTEREST COST",
+        "unit": "₹",
+        "basis": "Cost × 15% × 2 years × 50%",
+        "text": false
+      },
+      {
+        "id": "cost-with-interest",
+        "section": "COST SHEET",
+        "label": "TOTAL COST WITH INTEREST",
+        "unit": "₹",
+        "basis": "Cost + interest",
+        "text": false
+      },
+      {
+        "id": "realization",
+        "section": "COST SHEET",
+        "label": "SALE REALIZATION",
+        "unit": "₹",
+        "basis": "24,200 × 45,000",
+        "text": false
+      },
+      {
+        "id": "profit",
+        "section": "COST SHEET",
+        "label": "Gross Profit before Tax",
+        "unit": "₹",
+        "basis": "Revenue − total cost with interest",
+        "text": false
+      }
+    ],
+    "parameters": [
+      {
+        "id": "zonalFsi",
+        "label": "Zonal FSI",
+        "unit": "FSI",
+        "basis": "Report selection; confirm project eligibility.",
+        "min": 0,
+        "defaultValue": 1
+      },
+      {
+        "id": "premiumFsi",
+        "label": "Premium FSI",
+        "unit": "FSI",
+        "basis": "Report selection; confirm entitlement and premium.",
+        "min": 0,
+        "defaultValue": 0.5
+      },
+      {
+        "id": "tdrFsi",
+        "label": "TDR FSI",
+        "unit": "FSI",
+        "basis": "Report selection; confirm road-width and TDR conditions.",
+        "min": 0,
+        "defaultValue": 0.7
+      },
+      {
+        "id": "maxFsi",
+        "label": "Maximum FSI",
+        "unit": "FSI",
+        "basis": "33(12)(B) report cap; subject to eligibility and approval.",
+        "min": 0,
+        "defaultValue": 4
+      },
+      {
+        "id": "fungiblePercent",
+        "label": "Fungible allowance",
+        "unit": "%",
+        "basis": "Report allowance; confirm permissible component and premium.",
+        "min": 0,
+        "max": 100,
+        "defaultValue": 35
+      },
+      {
+        "id": "setbackFsi",
+        "label": "Setback FSI multiplier",
+        "unit": "×",
+        "basis": "As used in the supplied report.",
+        "min": 0,
+        "defaultValue": 2
+      },
+      {
+        "id": "incentivePercent",
+        "label": "PAP incentive",
+        "unit": "%",
+        "basis": "Report incentive on eligible PAP BUA; confirm approval basis.",
+        "min": 0,
+        "defaultValue": 50
+      },
+      {
+        "id": "buaFactor",
+        "label": "Carpet-to-BUA factor",
+        "unit": "×",
+        "basis": "Report approximation; not a universal area conversion.",
+        "min": 0.01,
+        "defaultValue": 1.2
+      },
+      {
+        "id": "carpetFactor",
+        "label": "Additional carpet factor",
+        "unit": "×",
+        "basis": "Report assumption; confirm the basis for the additional 8%.",
+        "min": 0.01,
+        "defaultValue": 1.08
+      },
+      {
+        "id": "papCarpet",
+        "label": "PAP carpet per tenement",
+        "unit": "m²",
+        "basis": "Inferred report basis: 27.88 × 1.20 = 33.456 m² BUA; confirm with the author.",
+        "min": 0.01,
+        "defaultValue": 27.88
+      },
+      {
+        "id": "papSharePercent",
+        "label": "PAP capacity allocation",
+        "unit": "%",
+        "basis": "The source uses balance area × 0.67 for tenant capacity.",
+        "min": 0,
+        "max": 100,
+        "defaultValue": 67
+      },
+      {
+        "id": "constructionFactor",
+        "label": "Construction-area multiplier",
+        "unit": "×",
+        "basis": "Report construction-area estimate, subject to actual design.",
+        "min": 0,
+        "defaultValue": 1.8
+      },
+      {
+        "id": "constructionRate",
+        "label": "Construction rate",
+        "unit": "INR / ft²",
+        "basis": "Source estimate; confirm specification and construction-area basis.",
+        "min": 0,
+        "defaultValue": 3500
+      },
+      {
+        "id": "rentRate",
+        "label": "Monthly rent rate",
+        "unit": "INR / ft²",
+        "basis": "Source assumption applied to existing carpet area.",
+        "min": 0,
+        "defaultValue": 105
+      },
+      {
+        "id": "rentMonths",
+        "label": "Rent duration",
+        "unit": "Months",
+        "basis": "Source programme allowance.",
+        "min": 0,
+        "defaultValue": 42
+      },
+      {
+        "id": "corpusRate",
+        "label": "Corpus rate",
+        "unit": "INR / ft²",
+        "basis": "Source assumption applied to existing carpet area.",
+        "min": 0,
+        "defaultValue": 2000
+      },
+      {
+        "id": "papBuyingRate",
+        "label": "PAP buying cost per tenement",
+        "unit": "INR",
+        "basis": "Inferred from source cost of 12,80,00,000 for 32 tenements.",
+        "min": 0,
+        "defaultValue": 4000000
+      },
+      {
+        "id": "interestPercent",
+        "label": "Annual interest",
+        "unit": "%",
+        "basis": "Simple-interest assumption used by the report.",
+        "min": 0,
+        "defaultValue": 15
+      },
+      {
+        "id": "interestYears",
+        "label": "Interest duration",
+        "unit": "Years",
+        "basis": "Source financing assumption; not a cash-flow forecast.",
+        "min": 0,
+        "defaultValue": 2
+      },
+      {
+        "id": "fundedPercent",
+        "label": "Cost subject to interest",
+        "unit": "%",
+        "basis": "Source financing assumption.",
+        "min": 0,
+        "max": 100,
+        "defaultValue": 50
+      },
+      {
+        "id": "revenueCarpet",
+        "label": "Carpet area used for revenue",
+        "unit": "ft²",
+        "basis": "Retains the report's 24,200 ft² revenue assumption; sale eligibility needs clarification.",
+        "min": 0,
+        "defaultValue": 24200
+      },
+      {
+        "id": "saleRate",
+        "label": "Sale rate",
+        "unit": "INR / ft²",
+        "basis": "Source market assumption; confirm independently.",
+        "min": 0,
+        "defaultValue": 45000
+      }
+    ]
+  },
+  {
+    "id": "ambivali-cluster",
+    "label": "Ambivali · CTS 832/5 & 8",
+    "fields": [
+      {
+        "id": "OPT1-FSI CALCULATION-D8",
+        "section": "Plot & planning",
+        "label": "Plot area",
+        "unit": "m²",
+        "basis": "As per PRC; site survey to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D9",
+        "section": "Plot & planning",
+        "label": "Existing road area",
+        "unit": "m²",
+        "basis": "Subject to demarcation",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D10",
+        "section": "Plot & planning",
+        "label": "Proposed road area",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D10",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D13",
+        "section": "Plot & planning",
+        "label": "Encroachment",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D13",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D14",
+        "section": "Plot & planning",
+        "label": "Net plot area",
+        "unit": "m²",
+        "basis": "Client site survey",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D15",
+        "section": "Plot & planning",
+        "label": "Amenity deduction",
+        "unit": "m²",
+        "basis": "Reg. 14(A)",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D16",
+        "section": "Plot & planning",
+        "label": "Balance plot area",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D16",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D17",
+        "section": "Plot & planning",
+        "label": "Amenity addition",
+        "unit": "m²",
+        "basis": "Reg. 14(A); added in source D18",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D18",
+        "section": "Plot & planning",
+        "label": "Plot area for CDS",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D18",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D19",
+        "section": "FSI & allocation",
+        "label": "FSI",
+        "unit": "FSI",
+        "basis": "OPT1-FSI CALCULATION!D19",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D20",
+        "section": "FSI & allocation",
+        "label": "Permissible BUA",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D20",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D24",
+        "section": "FSI & allocation",
+        "label": "Rehabilitation FSI area",
+        "unit": "m²",
+        "basis": "As per client data",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D25",
+        "section": "FSI & allocation",
+        "label": "Incentive FSI area",
+        "unit": "m²",
+        "basis": "105%; Reg. 33(9)(6)(b), Table B",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D26",
+        "section": "FSI & allocation",
+        "label": "Rehab + incentive FSI area",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D26",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D29",
+        "section": "FSI & allocation",
+        "label": "Balance FSI area",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D29",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D30",
+        "section": "FSI & allocation",
+        "label": "Promoter / developer balance share",
+        "unit": "m²",
+        "basis": "Source labels this 40%; reported value retained",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D31",
+        "section": "FSI & allocation",
+        "label": "MHADA share",
+        "unit": "m²",
+        "basis": "Clubbed and converted to sale in the source",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D33",
+        "section": "FSI & allocation",
+        "label": "Total promoter / developer share",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D33",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D34",
+        "section": "FSI & allocation",
+        "label": "Total rehabilitation component",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D34",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D35",
+        "section": "FSI & allocation",
+        "label": "Total sale component",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D35",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D37",
+        "section": "FSI & allocation",
+        "label": "Total MHADA + developer share",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D37",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D40",
+        "section": "Fungible area",
+        "label": "MHADA fungible area",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D40",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D41",
+        "section": "Fungible area",
+        "label": "Rehab fungible area",
+        "unit": "m²",
+        "basis": "35%; optional in source",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D42",
+        "section": "Fungible area",
+        "label": "Sale fungible area",
+        "unit": "m²",
+        "basis": "35%; premium applies",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-G40",
+        "section": "Fungible area",
+        "label": "MHADA fungible to use",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!G40",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-H40",
+        "section": "Fungible area",
+        "label": "MHADA fungible in abeyance",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!H40",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I40",
+        "section": "Fungible area",
+        "label": "Total permissible MHADA fungible",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!I40",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-G41",
+        "section": "Fungible area",
+        "label": "Rehab fungible to use",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!G41",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-H41",
+        "section": "Fungible area",
+        "label": "Rehab fungible in abeyance",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!H41",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I41",
+        "section": "Fungible area",
+        "label": "Total permissible rehab fungible",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!I41",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-G42",
+        "section": "Fungible area",
+        "label": "Sale fungible to use",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!G42",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-H42",
+        "section": "Fungible area",
+        "label": "Sale fungible in abeyance",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!H42",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I42",
+        "section": "Fungible area",
+        "label": "Total permissible sale fungible",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!I42",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D45",
+        "section": "Area statement",
+        "label": "Gross MHADA BUA",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D45",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D46",
+        "section": "Area statement",
+        "label": "Gross rehab BUA",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D46",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D47",
+        "section": "Area statement",
+        "label": "Gross sale BUA",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D47",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-D48",
+        "section": "Area statement",
+        "label": "Total gross BUA",
+        "unit": "m²",
+        "basis": "OPT1-FSI CALCULATION!D48",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-G46",
+        "section": "Area statement",
+        "label": "Gross rehab BUA",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!G46",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I46",
+        "section": "Area statement",
+        "label": "Approx. rehab carpet area",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!I46",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-G47",
+        "section": "Area statement",
+        "label": "Gross sale BUA",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!G47",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I47",
+        "section": "Area statement",
+        "label": "Approx. sale carpet area",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!I47",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-G48",
+        "section": "Area statement",
+        "label": "Total gross BUA",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!G48",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I48",
+        "section": "Area statement",
+        "label": "Approx. total carpet area",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!I48",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I50",
+        "section": "Area statement",
+        "label": "Existing carpet incl. balcony",
+        "unit": "ft²",
+        "basis": "OPT1-FSI CALCULATION!I50",
+        "text": false
+      },
+      {
+        "id": "OPT1-FSI CALCULATION-I51",
+        "section": "Area statement",
+        "label": "Average additional carpet area",
+        "unit": "%",
+        "basis": "OPT1-FSI CALCULATION!I51",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H5",
+        "section": "Parking & costing assumptions",
+        "label": "ASR 2023–24",
+        "unit": "₹/m²",
+        "basis": "OPT1-COSTING!H5",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H6",
+        "section": "Parking & costing assumptions",
+        "label": "LR / RC",
+        "unit": "Ratio",
+        "basis": "OPT1-COSTING!H6",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-C28",
+        "section": "Parking & costing assumptions",
+        "label": "Construction area multiplier",
+        "unit": "×",
+        "basis": "OPT1-COSTING!C28",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H28",
+        "section": "Parking & costing assumptions",
+        "label": "Construction area",
+        "unit": "m²",
+        "basis": "OPT1-COSTING!H28",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H29",
+        "section": "Parking & costing assumptions",
+        "label": "Existing MHADA-certified BUA",
+        "unit": "m²",
+        "basis": "OPT1-COSTING!H29",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H30",
+        "section": "Parking & costing assumptions",
+        "label": "Project duration",
+        "unit": "Months",
+        "basis": "OPT1-COSTING!H30",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H31",
+        "section": "Parking & costing assumptions",
+        "label": "Existing carpet area",
+        "unit": "m²",
+        "basis": "OPT1-COSTING!H31",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H32",
+        "section": "Parking & costing assumptions",
+        "label": "Existing members",
+        "unit": "Nos.",
+        "basis": "OPT1-COSTING!H32",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H34",
+        "section": "Parking & costing assumptions",
+        "label": "Rehab ratio",
+        "unit": "%",
+        "basis": "OPT1-COSTING!H34",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H35",
+        "section": "Parking & costing assumptions",
+        "label": "Sale ratio",
+        "unit": "%",
+        "basis": "OPT1-COSTING!H35",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H37",
+        "section": "Parking & costing assumptions",
+        "label": "Residential sale RERA carpet",
+        "unit": "ft²",
+        "basis": "OPT1-COSTING!H37",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H38",
+        "section": "Parking & costing assumptions",
+        "label": "Existing garage",
+        "unit": "ft²",
+        "basis": "OPT1-COSTING!H38",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H39",
+        "section": "Parking & costing assumptions",
+        "label": "Sale RERA carpet excl. garage",
+        "unit": "ft²",
+        "basis": "OPT1-COSTING!H39",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H41",
+        "section": "Parking & costing assumptions",
+        "label": "Sale rate",
+        "unit": "₹/ft²",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H42",
+        "section": "Parking & costing assumptions",
+        "label": "Sale parking (approx.)",
+        "unit": "Spaces",
+        "basis": "Assumed in source",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H43",
+        "section": "Parking & costing assumptions",
+        "label": "Rate per parking",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H43",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H91",
+        "section": "Cost & returns",
+        "label": "Total project expense",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H91",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H98",
+        "section": "Cost & returns",
+        "label": "Total project recovery",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H98",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H100",
+        "section": "Cost & returns",
+        "label": "Net profit",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H100",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H101",
+        "section": "Cost & returns",
+        "label": "ROI",
+        "unit": "%",
+        "basis": "OPT1-COSTING!H101",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H108",
+        "section": "Cost & returns",
+        "label": "Approx. premiums",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H108",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H109",
+        "section": "Cost & returns",
+        "label": "Approx. other costs",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H109",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H110",
+        "section": "Cost & returns",
+        "label": "Construction + marketing",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H110",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-E3",
+        "section": "Residential tenant areas",
+        "label": "Existing carpet",
+        "unit": "ft²",
+        "basis": "OPT1-TENANTS!E3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-G3",
+        "section": "Residential tenant areas",
+        "label": "Existing carpet incl. balcony",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!G3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-H3",
+        "section": "Residential tenant areas",
+        "label": "Basic carpet considered",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!H3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-I3",
+        "section": "Residential tenant areas",
+        "label": "Additional carpet",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!I3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-J3",
+        "section": "Residential tenant areas",
+        "label": "Minimum carpet for rehab FSI",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!J3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-L3",
+        "section": "Residential tenant areas",
+        "label": "Rehab BUA",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!L3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-M3",
+        "section": "Residential tenant areas",
+        "label": "Rehab carpet",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!M3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-O3",
+        "section": "Residential tenant areas",
+        "label": "Rehab BUA incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!O3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-P3",
+        "section": "Residential tenant areas",
+        "label": "Approx. carpet incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!P3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-R3",
+        "section": "Residential tenant areas",
+        "label": "Additional carpet excl. fungible",
+        "unit": "%",
+        "basis": "OPT1-TENANTS!R3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-S3",
+        "section": "Residential tenant areas",
+        "label": "Additional carpet incl. fungible",
+        "unit": "%",
+        "basis": "OPT1-TENANTS!S3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-U3",
+        "section": "Residential tenant areas",
+        "label": "Proposed rehab BUA incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!U3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-V3",
+        "section": "Residential tenant areas",
+        "label": "Proposed carpet incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!V3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-W3",
+        "section": "Residential tenant areas",
+        "label": "Proposed additional carpet",
+        "unit": "%",
+        "basis": "OPT1-TENANTS!W3",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-E285",
+        "section": "Non-residential tenant areas",
+        "label": "Existing carpet",
+        "unit": "ft²",
+        "basis": "OPT1-TENANTS!E285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-G285",
+        "section": "Non-residential tenant areas",
+        "label": "Existing carpet incl. balcony",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!G285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-H285",
+        "section": "Non-residential tenant areas",
+        "label": "Basic carpet considered",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!H285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-I285",
+        "section": "Non-residential tenant areas",
+        "label": "Additional carpet",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!I285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-J285",
+        "section": "Non-residential tenant areas",
+        "label": "Minimum carpet for rehab FSI",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!J285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-L285",
+        "section": "Non-residential tenant areas",
+        "label": "Rehab BUA",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!L285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-M285",
+        "section": "Non-residential tenant areas",
+        "label": "Rehab carpet",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!M285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-O285",
+        "section": "Non-residential tenant areas",
+        "label": "Rehab BUA incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!O285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-P285",
+        "section": "Non-residential tenant areas",
+        "label": "Approx. carpet incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!P285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-R285",
+        "section": "Non-residential tenant areas",
+        "label": "Additional carpet excl. fungible",
+        "unit": "%",
+        "basis": "OPT1-TENANTS!R285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-S285",
+        "section": "Non-residential tenant areas",
+        "label": "Additional carpet incl. fungible",
+        "unit": "%",
+        "basis": "OPT1-TENANTS!S285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-U285",
+        "section": "Non-residential tenant areas",
+        "label": "Proposed rehab BUA incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!U285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-V285",
+        "section": "Non-residential tenant areas",
+        "label": "Proposed carpet incl. fungible",
+        "unit": "m²",
+        "basis": "OPT1-TENANTS!V285",
+        "text": false
+      },
+      {
+        "id": "OPT1-TENANTS-W285",
+        "section": "Non-residential tenant areas",
+        "label": "Proposed additional carpet",
+        "unit": "%",
+        "basis": "OPT1-TENANTS!W285",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H46",
+        "section": "Detailed costs",
+        "label": "IOD/Amended Plan Fees",
+        "unit": "₹",
+        "basis": "On Construction area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H47",
+        "section": "Detailed costs",
+        "label": "I.O.D. Deposit",
+        "unit": "₹",
+        "basis": "On Construction area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H48",
+        "section": "Detailed costs",
+        "label": "Layout Scrutiny Fee",
+        "unit": "₹",
+        "basis": "On Gross plot area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H49",
+        "section": "Detailed costs",
+        "label": "Layout Security Deposit",
+        "unit": "₹",
+        "basis": "On Gross plot area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H50",
+        "section": "Detailed costs",
+        "label": "Debris Removal Deposit",
+        "unit": "₹",
+        "basis": "On Construction area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H51",
+        "section": "Detailed costs",
+        "label": "Development Charges (LAND) RESI",
+        "unit": "₹",
+        "basis": "On net plot area proportionate to Resi user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H52",
+        "section": "Detailed costs",
+        "label": "Development Charges (LAND) COMM",
+        "unit": "₹",
+        "basis": "On net plot area proportionate to Comm user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H53",
+        "section": "Detailed costs",
+        "label": "Development Charges (BUILDING) RESI",
+        "unit": "₹",
+        "basis": "On Sale BUA+Fungible proportionate to Resi user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H54",
+        "section": "Detailed costs",
+        "label": "Development Charges (BUILDING) COMM",
+        "unit": "₹",
+        "basis": "On Sale BUA+Fungible proportionate to Comm user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H55",
+        "section": "Detailed costs",
+        "label": "Development Cess",
+        "unit": "₹",
+        "basis": "On Total BUA less Existing BUA",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H56",
+        "section": "Detailed costs",
+        "label": "Staircase/ Lift Area Premium (Sale)",
+        "unit": "₹",
+        "basis": "25% of BUA+Fungible of Sale",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H57",
+        "section": "Detailed costs",
+        "label": "Fungible RESI",
+        "unit": "₹",
+        "basis": "On Sale Fungible proportionate to Resi user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H58",
+        "section": "Detailed costs",
+        "label": "Fungible COMM",
+        "unit": "₹",
+        "basis": "On Sale Fungible proportionate to Comm user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H59",
+        "section": "Detailed costs",
+        "label": "Labour welfare cess",
+        "unit": "₹",
+        "basis": "On total BUA+Fungible of each Bldg.",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H60",
+        "section": "Detailed costs",
+        "label": "Open Space Deficiency Premium (Sale Resi)",
+        "unit": "₹",
+        "basis": "On Sale BUA+Fungible proportionate to Resi user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H61",
+        "section": "Detailed costs",
+        "label": "Open Space Deficiency Premium (Sale Comm)",
+        "unit": "₹",
+        "basis": "On Sale BUA+Fungible proportionate to Comm user",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H62",
+        "section": "Detailed costs",
+        "label": "Open Space Deficiency Premium (Rehab)",
+        "unit": "₹",
+        "basis": "On Member & MHADA's BUA+Fungible, divided by FSI 4.00",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H63",
+        "section": "Detailed costs",
+        "label": "AVS Premium",
+        "unit": "₹",
+        "basis": "Subject to planning; Lumsum",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H64",
+        "section": "Detailed costs",
+        "label": "Extra sewerage charges",
+        "unit": "₹",
+        "basis": "On Construction area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H65",
+        "section": "Detailed costs",
+        "label": "PCO Charges",
+        "unit": "₹",
+        "basis": "On Construction area",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H66",
+        "section": "Detailed costs",
+        "label": "Property tax",
+        "unit": "₹",
+        "basis": "Subject to application of court judgement; On proportionate Net plot area for Sale for 3 Years",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H67",
+        "section": "Detailed costs",
+        "label": "CFO capitation fees",
+        "unit": "₹",
+        "basis": "On Construction area @ 65 Capitation fees +15 Fire Service fees",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H68",
+        "section": "Detailed costs",
+        "label": "CFO Fire Service fee",
+        "unit": "₹",
+        "basis": "Lumsum",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H69",
+        "section": "Detailed costs",
+        "label": "MOEF CHARGES",
+        "unit": "₹",
+        "basis": "Client to verify; Lumsum",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H70",
+        "section": "Detailed costs",
+        "label": "PRO RATA CHARGES",
+        "unit": "₹",
+        "basis": "Lumsum",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H71",
+        "section": "Detailed costs",
+        "label": "T & C NOC",
+        "unit": "₹",
+        "basis": "Client to verify; Lumsum",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H72",
+        "section": "Detailed costs",
+        "label": "MCGM Old dues",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H72",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H73",
+        "section": "Detailed costs",
+        "label": "ULC cost",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H73",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H74",
+        "section": "Detailed costs",
+        "label": "OP",
+        "unit": "₹",
+        "basis": "Client to verify; Assumed rate",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H75",
+        "section": "Detailed costs",
+        "label": "Area Certification",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H76",
+        "section": "Detailed costs",
+        "label": "IOD Compliance",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H76",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H77",
+        "section": "Detailed costs",
+        "label": "CRZ NOC",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H77",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H78",
+        "section": "Detailed costs",
+        "label": "Estate Premium",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H78",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H79",
+        "section": "Detailed costs",
+        "label": "Professional Fees",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H79",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H80",
+        "section": "Detailed costs",
+        "label": "Contingencies",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H80",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H81",
+        "section": "Detailed costs",
+        "label": "Administration",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H81",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H82",
+        "section": "Detailed costs",
+        "label": "Sales and Marketing",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H82",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H83",
+        "section": "Detailed costs",
+        "label": "Construction cost",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H84",
+        "section": "Detailed costs",
+        "label": "MHADA CLUBBING",
+        "unit": "₹",
+        "basis": "Depends on market Rate. There will be indexation of Area to Handover, considering Land (ASR) of plot u/r Twice the other plot (where MHADA to Shift) & Cost of Rs. 16000 per sq.ft. Hence, considered Rs. 32000 on area to be clubbed",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H85",
+        "section": "Detailed costs",
+        "label": "Corpus",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H86",
+        "section": "Detailed costs",
+        "label": "GST on Member's area",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H87",
+        "section": "Detailed costs",
+        "label": "Rent + Brokerage",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H88",
+        "section": "Detailed costs",
+        "label": "Shifting",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H89",
+        "section": "Detailed costs",
+        "label": "DA",
+        "unit": "₹",
+        "basis": "Client to verify",
+        "text": false
+      },
+      {
+        "id": "OPT1-COSTING-H90",
+        "section": "Detailed costs",
+        "label": "Interest on investment",
+        "unit": "₹",
+        "basis": "OPT1-COSTING!H90",
+        "text": false
+      }
+    ],
+    "parameters": []
+  },
+  {
+    "id": "society-study",
+    "label": "General area statement",
+    "fields": [
+      {
+        "id": "plot-area",
+        "section": "Plot & planning",
+        "label": "Plot area",
+        "unit": "m²",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "planning-authority",
+        "section": "Plot & planning",
+        "label": "Planning authority",
+        "unit": "",
+        "basis": "Report figure",
+        "text": true
+      },
+      {
+        "id": "land-tenure",
+        "section": "Plot & planning",
+        "label": "Land tenure",
+        "unit": "",
+        "basis": "Report figure",
+        "text": true
+      },
+      {
+        "id": "fsi",
+        "section": "Plot & planning",
+        "label": "FSI",
+        "unit": "FSI",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "existing-bua",
+        "section": "Area statement",
+        "label": "Existing built-up area",
+        "unit": "m²",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "existing-carpet",
+        "section": "Area statement",
+        "label": "Existing carpet area",
+        "unit": "m²",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "rehab-area",
+        "section": "Area statement",
+        "label": "Rehabilitation component",
+        "unit": "m²",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "sale-area",
+        "section": "Area statement",
+        "label": "Sale component",
+        "unit": "m²",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "amenities-area",
+        "section": "Area statement",
+        "label": "Amenities / common areas",
+        "unit": "m²",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "residential-parking",
+        "section": "Parking & planning assumptions",
+        "label": "Residential parking",
+        "unit": "Spaces",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "visitor-parking",
+        "section": "Parking & planning assumptions",
+        "label": "Visitor parking",
+        "unit": "Spaces",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "commercial-parking",
+        "section": "Parking & planning assumptions",
+        "label": "Commercial parking",
+        "unit": "Spaces",
+        "basis": "Report figure",
+        "text": false
+      },
+      {
+        "id": "planning-parameters",
+        "section": "Parking & planning assumptions",
+        "label": "Planning parameters",
+        "unit": "",
+        "basis": "Report figure",
+        "text": true
+      }
+    ],
+    "parameters": []
+  }
+]
