@@ -6,11 +6,16 @@ import { trustProxy } from "./config/http.js";
 import { apiLimit } from "./middleware/rate-limit.middleware.js";
 import { errorHandler } from "./middleware/error.middleware.js";
 import routes from "./routes/index.js";
+
+const helmetMiddleware = (
+  typeof helmet === "function" ? helmet : (helmet as { default: unknown }).default
+) as () => express.RequestHandler;
+
 export const app = express();
 app.disable("x-powered-by");
 app.set("trust proxy", trustProxy);
 app.use(
-  helmet(),
+  helmetMiddleware(),
   cors(),
   express.json({ limit: "2mb" }),
   cookieParser(),
@@ -20,3 +25,5 @@ app.use("/api", (_req, res, next) => {
   next();
 }, apiLimit, routes);
 app.use(errorHandler);
+
+export default app;
