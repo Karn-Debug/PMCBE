@@ -1019,6 +1019,7 @@ enum AtelierReview {
 }
 model AtelierWorkspace {
   id String @id
+  registerImports PmcRegisterImport[]
   users AtelierUser[]
   societies AtelierSociety[]
 }
@@ -1060,6 +1061,9 @@ model AtelierSession {
 }
 model AtelierSociety {
   number Int @id @default(autoincrement())
+  premises PmcPremises[]
+  documents PmcDocument[]
+  meetings PmcMeeting[]
   workspaceId String
   workspace AtelierWorkspace @relation(fields: [workspaceId], references: [id])
   societyName String
@@ -1121,4 +1125,104 @@ model AtelierRevision {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   @@unique([societyNumber,version])
+}
+
+enum PmcPremisesType {
+  Residential
+  Commercial
+  Unspecified
+}
+enum PmcVerification {
+  Pending
+  Verified
+  Clarification
+}
+model PmcPremises {
+  id String @id @default(cuid())
+  societyNumber Int
+  society AtelierSociety @relation(fields: [societyNumber], references: [number], onDelete: Cascade)
+  premisesNumber String
+  wing String @default("")
+  unitKey String
+  floor String @default("")
+  premisesType PmcPremisesType @default(Unspecified)
+  existingArea Decimal? @db.Decimal(16, 4)
+  proposedArea Decimal? @db.Decimal(16, 4)
+  status PmcVerification @default(Pending)
+  members PmcMember[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@unique([societyNumber, unitKey])
+}
+model PmcMember {
+  id String @id @default(cuid())
+  premisesId String
+  premises PmcPremises @relation(fields: [premisesId], references: [id], onDelete: Cascade)
+  name String
+  nameKey String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@unique([premisesId, nameKey])
+}
+model PmcDocument {
+  id String @id @default(cuid())
+  societyNumber Int
+  society AtelierSociety @relation(fields: [societyNumber], references: [number], onDelete: Cascade)
+  title String
+  category String
+  version String
+  remarks String @default("")
+  status PmcVerification @default(Pending)
+  uploadedBy String
+  reviewedBy String @default("")
+  filename String
+  bytes Bytes
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([societyNumber, createdAt])
+}
+model PmcMeeting {
+  id String @id @default(cuid())
+  societyNumber Int
+  society AtelierSociety @relation(fields: [societyNumber], references: [number], onDelete: Cascade)
+  meetingType String
+  date DateTime
+  venue String
+  attendance String @default("")
+  agenda String
+  quorum String @default("")
+  minutesStatus String @default("Not Started")
+  resolutionStatus String @default("Pending Review")
+  decisions PmcDecision[]
+  attachments PmcMeetingFile[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([societyNumber, date])
+}
+model PmcDecision {
+  id String @id @default(cuid())
+  meetingId String
+  meeting PmcMeeting @relation(fields: [meetingId], references: [id], onDelete: Cascade)
+  position Int
+  decision String
+  votingSummary String @default("")
+  @@unique([meetingId, position])
+}
+model PmcMeetingFile {
+  id String @id @default(cuid())
+  meetingId String
+  meeting PmcMeeting @relation(fields: [meetingId], references: [id], onDelete: Cascade)
+  name String
+  size Int
+  type String
+  bytes Bytes
+  @@index([meetingId])
+}
+model PmcRegisterImport {
+  workspaceId String
+  workspace AtelierWorkspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  scope String
+  digest String
+  createdAt DateTime @default(now())
+  @@id([workspaceId, scope, digest])
 }

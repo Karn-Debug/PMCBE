@@ -88,7 +88,7 @@ fs.writeFileSync(
     "DATABASE_URL=" + url.href,
     "NODE_ENV=development",
     "HOST=127.0.0.1",
-    "PORT=" + (prior.PORT || "4001"),
+    "PORT=" + (prior.PORT || "4011"),
     "PMC_LOCAL_RESET_OTP=" +
       (process.env.PMC_LOCAL_RESET_OTP ||
         process.env.ATELIER_LOCAL_RESET_OTP ||

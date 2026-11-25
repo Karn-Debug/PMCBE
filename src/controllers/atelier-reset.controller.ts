@@ -7,16 +7,14 @@ import { HttpError } from "../utils/http-error.js";
 import { hash } from "../utils/crypto.js";
 
 function localResetCode() {
-  const otp ="878787";
-    // process.env.PMC_LOCAL_RESET_OTP || process.env.ATELIER_LOCAL_RESET_OTP;
+  const otp = process.env.PMC_LOCAL_RESET_OTP || process.env.ATELIER_LOCAL_RESET_OTP;
   const local = (host: string) =>
     ["localhost", "127.0.0.1", "::1", "[::1]"].includes(host);
   if (
-    // process.env.NODE_ENV !== "development" ||
-    // !local(process.env.HOST || "") ||
-    // !local(new URL(process.env.DATABASE_URL!).hostname) ||
-    !otp 
-    // !/^\d{6}$/.test(otp)
+    process.env.NODE_ENV !== "development" ||
+    !local(process.env.HOST || "") ||
+    !local(new URL(process.env.DATABASE_URL!).hostname) ||
+    !otp || !/^\d{6}$/.test(otp)
   )
     throw new HttpError(
       503,
@@ -25,7 +23,7 @@ function localResetCode() {
   return otp;
 }
 export async function beginReset(req: Request, res: Response) {
-  // localResetCode();
+  localResetCode();
   const email = z.email().toLowerCase().parse(req.body?.email);
   const user = await db.atelierUser.findFirst({
     where: { email, active: true },

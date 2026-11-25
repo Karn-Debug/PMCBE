@@ -5,6 +5,7 @@ import { authLimit } from "../middleware/rate-limit.middleware.js";
 import * as auth from "../controllers/atelier-auth.controller.js";
 import * as societies from "../controllers/atelier-society.controller.js";
 import * as reports from "../controllers/atelier-feasibility.controller.js";
+import registerRoutes from "./society-register.routes.js";
 import {
   beginReset,
   finishReset,
@@ -19,6 +20,7 @@ router.post("/auth/forgot-password", authLimit, beginReset);
 router.post("/auth/reset-password", authLimit, finishReset);
 router.post("/auth/logout", auth.logout);
 router.use(auth.authenticate);
+router.use(registerRoutes);
 router.get("/auth/me", (_req, res) => res.json(res.locals.atelier));
 router.get("/societies", societies.list);
 router.post("/societies", societies.create);

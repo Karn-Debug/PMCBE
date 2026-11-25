@@ -110,6 +110,7 @@ export function societyNumber(raw: unknown) {
   return Number(m[1]);
 }
 export const societyRef = (n: number) => "SOC-" + String(n).padStart(4, "0");
+export const newSocietyFields = fields.required({ societyName: true });
 export function present(row: AtelierSociety) {
   const { number, workspaceId, revisionCount, updatedAt, createdAt, ...rest } =
     row;
@@ -143,7 +144,7 @@ export async function listSocieties(workspaceId: string) {
   ).map(present);
 }
 export async function createSociety(workspaceId: string, input: unknown) {
-  const data = fields.required({ societyName: true }).parse(input);
+  const data = newSocietyFields.parse(input);
   return present(
     await db.atelierSociety.create({ data: { ...data, workspaceId } }),
   );
