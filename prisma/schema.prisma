@@ -1095,6 +1095,7 @@ model AtelierSociety {
   contactNumber String @default("")
   emailAddress String @default("")
   ctsNumber String @default("")
+  proposalNumber String? @db.VarChar(300)
   planningAuthority String @default("")
   redevelopmentType String @default("")
   engagementReference String @default("")

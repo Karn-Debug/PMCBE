@@ -72,6 +72,7 @@ const fields = z
     contactNumber: short,
     emailAddress: z.union([z.email(), z.literal("")]),
     ctsNumber: short,
+    proposalNumber: z.string().trim().min(1).max(300).nullable(),
     planningAuthority: short,
     redevelopmentType: short,
     engagementReference: short,

@@ -6,6 +6,7 @@ import * as auth from "../controllers/atelier-auth.controller.js";
 import * as societies from "../controllers/atelier-society.controller.js";
 import * as reports from "../controllers/atelier-feasibility.controller.js";
 import registerRoutes from "./society-register.routes.js";
+import * as permissions from "../controllers/society-permissions.controller.js";
 import {
   beginReset,
   finishReset,
@@ -26,6 +27,10 @@ router.get("/societies", societies.list);
 router.post("/societies", societies.create);
 router.patch("/societies", societies.update);
 router.get("/societies/:id", societies.get);
+const permissionPath = "/societies/:id/permissions";
+router.post(permissionPath + "/search", permissions.candidates);
+router.get(permissionPath + "/project", permissions.project);
+router.get(permissionPath + "/structure", permissions.structure);
 const path = "/societies/:id/feasibility";
 router.get(path, reports.list);
 router.get(path + "/workbook", reports.download);
